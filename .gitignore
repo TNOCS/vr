@@ -31,3 +31,7 @@ node_modules
 
 # Optional REPL history
 .node_repl_history
+
+csweb/bower_components
+csweb/**/*.js
+csweb/**/*.js.map

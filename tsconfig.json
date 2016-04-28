@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "declaration": false,
+    "noImplicitAny": false,
+    "removeComments": false,
+    "noLib": false,
+    "sourceMap": true
+  },
+  "files": [
+    "csweb/app/app.ts",
+    "csweb/app/m.ts",
+    "typings/browser.d.ts",
+    "typings/browser/ambient/crossfilter/crossfilter.d.ts",
+    "typings/browser/ambient/leaflet/leaflet.d.ts",
+    "typings/browser/ambient/leaflet/L.Polyline.extended.d.ts",
+    "typings/browser/ambient/leaflet/control-sidebar.d.ts",
+    "typings/mqtt/mqtt-router.d.ts",
+    "typings/hypertimer/hypertimer.d.ts"
+  ]
+}

@@ -790,3 +790,17 @@ Parallax
 	}
 	
 }
+
+.dropdown-menu {
+    left: 50% !important;
+    margin-left: -70px;
+}
+
+.center-dropdown {
+    left: auto !important;
+    right: -25% !important;
+}
+.center-dropdown:after {
+   left: auto !important;
+   right: 45% !important;
+}
