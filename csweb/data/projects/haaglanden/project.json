@@ -31,7 +31,7 @@
             "mapWidth": "100%",
             "alignMapRight": false,
             "showTimeline": false,
-            "showLeftmenu": false,
+            "showLeftmenu": true,
             "showLegend": false,
             "showRightmenu": false,
             "showBackgroundImage": false,
