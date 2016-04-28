@@ -41,6 +41,10 @@ Alle lagen bevatten teveel onnodige details: maak de GeoJSON files kleiner met m
 Op de website van Imergis kun je een heleboel nuttige datalagen vinden, zoals de veiligheidsregio's. De conversie verloopt hetzelfde als bij de CBS 
 data, alleen hoeven we hier geen gebruik te maken van een 'water' filter. Als extra stap heb ik alleen de 'naam' property vervangen door 'Name'.
 
+## Scholen
+https://duo.nl/open_onderwijsdata/databestanden/
+
+
 # Opsplitsen van GeoJSON bronnen per VR
 De kaartlaag van de Veiligheidsregio's is verder gebruikt als clip regio: iedere VR wordt als clip.json gesaved in de desbetreffende folder van 
 de VR.
