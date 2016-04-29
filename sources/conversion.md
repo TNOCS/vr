@@ -14,10 +14,12 @@ Je kunt dit als volgt aanpassen (bron)[http://gis.stackexchange.com/questions/15
 
 Input the code into the Python Console (Plugins > Python Console; Extensions > Python Console; Ctrl + Alt + P).
 
+```
 for layer in QgsMapLayerRegistry.instance().mapLayers().values():
     layer.setProviderEncoding(u'UTF-8')
     layer.dataProvider().setEncoding(u'UTF-8')
     print layer.name(), layer.dataProvider().encoding()   #Optional check: prints layer name and its encoding source
+```
 
 ### Stap 2: Watergebieden verwijderen
 

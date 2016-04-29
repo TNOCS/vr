@@ -35,3 +35,5 @@ node_modules
 csweb/bower_components
 csweb/**/*.js
 csweb/**/*.js.map
+sources/**/*.js
+sources/**/*.js.map
