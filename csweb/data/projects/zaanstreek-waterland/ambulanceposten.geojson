@@ -1,0 +1,11 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                                                                  
+"features": [
+{ "type": "Feature", "properties": { "X": 126948, "Y": 503306, "X-nav": 126978, "Y-nav": 503319, "BAG Id": "0439010000000909", "Organisati": "VZA", "LOC_TYPE": "Ambulancepost", "LOC_NAAM": "VZA Purmerend", "LOC_STRAAT": "Cantekoogweg", "Huisnr": "17", "Postcode": "1442 LG", "Plaats": "Purmerend", "GEM": "Purmerend", "Regio": 11, "Website": "www.vza.nl", "Telefoon": "020-5709500", "CODE": null, "BIJZONDERH": "Imergis" }, "geometry": { "type": "Point", "coordinates": [ 4.973939, 52.5167082 ] } },
+{ "type": "Feature", "properties": { "X": 131246, "Y": 496514, "X-nav": 131267, "Y-nav": 496528, "BAG Id": "0852010000006233", "Organisati": "VZA", "LOC_TYPE": "Ambulancepost", "LOC_NAAM": "VZA Monnickendam", "LOC_STRAAT": "Swaensborch", "Huisnr": "11", "Postcode": "1141 VZ", "Plaats": "Monnickendam", "GEM": "Waterland", "Regio": 11, "Website": "www.vza.nl", "Telefoon": "020-5709500", "CODE": null, "BIJZONDERH": "Imergis" }, "geometry": { "type": "Point", "coordinates": [ 5.0377393, 52.4558706 ] } },
+{ "type": "Feature", "properties": { "X": 113382, "Y": 501188, "X-nav": 113462, "Y-nav": 501179, "BAG Id": "0479010000029859", "Organisati": "VZA", "LOC_TYPE": "Ambulancepost", "LOC_NAAM": "VZA Wormerveer (VWS)", "LOC_STRAAT": "Industrieweg", "Huisnr": "1c", "Postcode": "1521 NA", "Plaats": "Wormerveer", "GEM": "Zaanstad", "Regio": 11, "Website": "www.vza.nl", "Telefoon": "020-5709500", "CODE": null, "BIJZONDERH": "Imergis" }, "geometry": { "type": "Point", "coordinates": [ 4.7743562, 52.4968097 ] } },
+{ "type": "Feature", "properties": { "X": 116902, "Y": 496110, "X-nav": 116887, "Y-nav": 496140, "BAG Id": "0479010000062316", "Organisati": "VZA", "LOC_TYPE": "Ambulancepost", "LOC_NAAM": "VZA Zaandam", "LOC_STRAAT": "Heijermansstraat", "Huisnr": "76", "Postcode": "1502 DR", "Plaats": "Zaandam", "GEM": "Zaanstad", "Regio": 11, "Website": "www.vza.nl", "Telefoon": "020-5709500", "CODE": null, "BIJZONDERH": "Imergis" }, "geometry": { "type": "Point", "coordinates": [ 4.8267663, 52.4514301 ] } }
+]
+}

@@ -1,0 +1,261 @@
+{
+    "id": "haaglanden",
+    "title": "HAAGLANDEN",
+    "logo": "images/politie_zwart.png",
+    "isDynamic": false,
+    "timeLine": {
+        "enableLive": false,
+        "enablePlay": false,
+        "enableEvents": true,
+        "enableFocus": false,
+        "focus": 1461691696774,
+        "start": 1461690586786,
+        "end": 1461720112486,
+        "range": 29525700,
+        "zoomLevel": 900000,
+        "zoomLevelName": "quarters",
+        "isLive": false,
+        "expandHeight": 350
+    },
+    "mcas": [],
+    "profile": {
+        "authenticationMethod": 1
+    },
+    "datasources": null,
+    "dashboards": [
+        {
+            "id": "map",
+            "name": "Home",
+            "editMode": true,
+            "showMap": true,
+            "mapWidth": "100%",
+            "alignMapRight": false,
+            "showTimeline": false,
+            "showLeftmenu": true,
+            "showLegend": false,
+            "showRightmenu": false,
+            "showBackgroundImage": false,
+            "visiblelayers": [],
+            "widgets": [
+                { 
+                    "directive": "locationwidget", 
+                    "enabled": true, 
+                    "style": "transparent", 
+                    "height": "230px", 
+                    "bottom": "75px", 
+                    "left": "30%", 
+                    "right": "30%", 
+                    "data": { 
+                        "streetViewApiKey": "AIzaSyDKFM7-fvJzuu1LNiMfd7WlOosBP-E20vc" 
+                    } 
+                }                
+            ],
+            "mobile": true
+        },
+        {
+            "id": "datatable",
+            "name": "Table",
+            "editMode": false,
+            "showMap": false,
+            "mapWidth": "100%",
+            "alignMapRight": false,
+            "showTimeline": false,
+            "showLeftmenu": false,
+            "showLegend": false,
+            "showRightmenu": false,
+            "showBackgroundImage": false,
+            "widgets": [
+                {
+                    "id": "datatable_id",
+                    "directive": "datatable",
+                    "enabled": true,
+                    "customStyle": null,
+                    "style": "transparent",
+                    "top": "80px",
+                    "width": "100%",
+                    "height": "100%"
+                }
+            ],
+            "mobile": true
+        }
+    ],
+    "viewBounds": {
+        "southWest": [
+            52.060327717006984,
+            4.259519577026367
+        ],
+        "northEast": [
+            52.08594088662689,
+            4.341917037963867
+        ]
+    },
+    "userPrivileges": {
+        "mca": {
+            "expertMode": true
+        }
+    },
+    "modeSelection": true,
+    "expertMode": 3,
+    "propertyTypeData": {},
+    "groups": [
+        {
+            "id": "staticlayers",
+            "title": "Overige locaties",
+            "description": "",
+            "clustering": true,
+            "clusterLevel": 11,
+            "layers": [
+                {
+                    "id": "bureaus",
+                    "title": "Politiebureaus",
+                    "description": "",
+                    "type": "esrijson",
+                    "renderType": "geojson",
+                    "heatmapItems": null,
+                    "url": "data//layers/alle-politiebureaus.json",
+                    "typeUrl": "data//resourceTypes/SGBO_Resources.json",
+                    "opacity": 75,
+                    "dataSourceParameters": {
+                        "convertFromRD": true
+                    },
+                    "defaultFeatureType": "Bureau",
+                    "isDynamic": false,
+                    "timeAware": false,
+                    "fitToMap": true
+                },
+                {
+                    "id": "ministeries",
+                    "title": "Ministeries",
+                    "description": "",
+                    "type": "geojson",
+                    "renderType": "geojson",
+                    "heatmapItems": null,
+                    "url": "data//layers/ministeries.json",
+                    "typeUrl": "data//resourceTypes/ministeries.json",
+                    "opacity": 75,
+                    "defaultFeatureType": "ministerie",
+                    "isDynamic": false,
+                    "timeAware": false,
+                    "fitToMap": true
+                },
+                {
+                    "id": "ambassade",
+                    "title": "Ambassades en consulaten",
+                    "description": "Updated 20.03.2016",
+                    "type": "geojson",
+                    "renderType": "geojson",
+                    "heatmapItems": null,
+                    "url": "data//layers/Ambassades.json",
+                    "typeUrl": "data//resourceTypes/ambassade.json",
+                    "opacity": 75,
+                    "defaultFeatureType": "ambassade",
+                    "isDynamic": false,
+                    "timeAware": false,
+                    "fitToMap": true
+                },
+                {
+                    "id": "districten",
+                    "title": "Districten",
+                    "description": "",
+                    "type": "esrijson",
+                    "renderType": "geojson",
+                    "heatmapItems": null,
+                    "url": "data//layers/alle-districten.json",
+                    "typeUrl": "data//resourceTypes/SGBO_Resources.json",
+                    "opacity": 75,
+                    "dataSourceParameters": {
+                        "convertFromRD": true
+                    },
+                    "defaultFeatureType": "District",
+                    "isDynamic": false,
+                    "timeAware": false
+                }
+            ]
+        },
+        {
+            "id": "overig",
+            "title": "Overige bronnen",
+            "description": "CBS en KNMI",
+            "clustering": true,
+            "clusterLevel": 11,
+            "layers": [
+                {
+                    "id": "knmi",
+                    "title": "KNMI Radar",
+                    "description": "(Source: KNMI)",
+                    "type": "wms",
+                    "renderType": "wms",
+                    "heatmapItems": null,
+                    "url": "http://geoservices.knmi.nl/cgi-bin/RADNL_OPER_R___25PCPRR_L3.cgi?",
+                    "wmsLayers": "RADNL_OPER_R___25PCPRR_L3_COLOR",
+                    "opacity": 50,
+                    "languages": {
+                        "nl": {
+                            "title": "KNMI Radar",
+                            "description": "(Bron: KNMI)"
+                        },
+                        "en": {
+                            "title": "KNMI Radar",
+                            "description": "(Source: KNMI)"
+                        }
+                    },
+                    "fitToMap": true
+                },
+                {
+                    "id": "buurten",
+                    "title": "Buurten",
+                    "description": "",
+                    "type": "geojson",
+                    "renderType": "geojson",
+                    "heatmapItems": null,
+                    "url": "data/projects/haaglanden/capped_Buurt_2015.json",
+                    "typeUrl": "data//resourceTypes/cbs.json",
+                    "opacity": 75,
+                    "defaultFeatureType": "buurt",
+                    "isDynamic": false,
+                    "timeAware": false,
+                    "fitToMap": false
+                },
+                {
+                    "id": "wijken",
+                    "title": "Wijken",
+                    "description": "",
+                    "type": "geojson",
+                    "renderType": "geojson",
+                    "heatmapItems": null,
+                    "url": "data/projects/haaglanden/capped_Wijk_2015.json",
+                    "typeUrl": "data//resourceTypes/cbs.json",
+                    "opacity": 75,
+                    "defaultFeatureType": "buurt",
+                    "isDynamic": false,
+                    "timeAware": false,
+                    "fitToMap": false
+                }
+            ]
+        }
+    ],
+    "layerDirectory": "/api/layers",
+    "eventTab": false,
+    "searchProviders": [
+        {
+            "name": "bing",
+            "url": "http://dev.virtualearth.net/REST/v1/Locations",
+            "key": "Amr8FC04ddS61JzKj7yM4CaIqKWSucR29t7DmBWZbw99sgqhXmqDUSobNbgzaQFS",
+            "data": {
+                "culture": "nl",
+                "userLocation": "52.077857,4.316639"
+            }
+        },
+        {
+            "name": "OpenCageData",
+            "url": "https://api.opencagedata.com/geocode/v1/json",
+            "key": "f3d87404630aa9140c2ccfb32a2168c5",
+            "data": {
+                "culture": "nl",
+                "language": "nl-NL",
+                "userLocation": "52.077857,4.316639"
+            }
+        }
+    ],
+    "storage": "file"
+}

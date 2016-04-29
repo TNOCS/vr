@@ -1,0 +1,368 @@
+{
+  "id": "zuid-holland-zuid",
+  "title": "Zuid-Holland-Zuid",
+  "logo": "images/politie_zwart.png",
+  "isDynamic": false,
+  "timeLine": {
+    "enableLive": false,
+    "enablePlay": false,
+    "enableEvents": true,
+    "enableFocus": false,
+    "focus": 1461691696774,
+    "start": 1461690586786,
+    "end": 1461720112486,
+    "range": 29525700,
+    "zoomLevel": 900000,
+    "zoomLevelName": "quarters",
+    "isLive": false,
+    "expandHeight": 350
+  },
+  "mcas": [],
+  "profile": {
+    "authenticationMethod": 1
+  },
+  "datasources": null,
+  "dashboards": [
+    {
+      "id": "map",
+      "name": "Home",
+      "editMode": true,
+      "showMap": true,
+      "mapWidth": "100%",
+      "alignMapRight": false,
+      "showTimeline": false,
+      "showLeftmenu": true,
+      "showLegend": false,
+      "showRightmenu": false,
+      "showBackgroundImage": false,
+      "visiblelayers": [],
+      "widgets": [
+        {
+          "directive": "locationwidget",
+          "enabled": true,
+          "style": "transparent",
+          "height": "230px",
+          "bottom": "75px",
+          "left": "30%",
+          "right": "30%",
+          "data": {
+            "streetViewApiKey": "AIzaSyDKFM7-fvJzuu1LNiMfd7WlOosBP-E20vc"
+          }
+        }
+      ],
+      "mobile": true
+    },
+    {
+      "id": "datatable",
+      "name": "Table",
+      "editMode": false,
+      "showMap": false,
+      "mapWidth": "100%",
+      "alignMapRight": false,
+      "showTimeline": false,
+      "showLeftmenu": false,
+      "showLegend": false,
+      "showRightmenu": false,
+      "showBackgroundImage": false,
+      "widgets": [
+        {
+          "id": "datatable_id",
+          "directive": "datatable",
+          "enabled": true,
+          "customStyle": null,
+          "style": "transparent",
+          "top": "80px",
+          "width": "100%",
+          "height": "100%"
+        }
+      ],
+      "mobile": true
+    }
+  ],
+  "viewBounds": {
+    "southWest": [
+      52.060327717006984,
+      4.259519577026367
+    ],
+    "northEast": [
+      52.08594088662689,
+      4.341917037963867
+    ]
+  },
+  "userPrivileges": {
+    "mca": {
+      "expertMode": true
+    }
+  },
+  "modeSelection": true,
+  "expertMode": 3,
+  "propertyTypeData": {},
+  "groups": [
+    {
+      "id": "locaties",
+      "title": "Locaties",
+      "layers": [
+        {
+          "id": "ambulanceposten",
+          "title": "Ambulanceposten",
+          "description": "Bron: Imergis 2016",
+          "type": "geojson",
+          "url": "data/projects/zuid-holland-zuid/ambulanceposten.geojson",
+          "typeUrl": "data/resourceTypes/ambulanceposten",
+          "opacity": 0.75,
+          "defaultFeatureType": "ambulanceposten",
+          "isDynamic": false,
+          "timeAware": false,
+          "fitToMap": true
+        },
+        {
+          "id": "brandweerkazernes",
+          "title": "Brandweerkazernes",
+          "description": "Bron: Imergis 2016",
+          "type": "geojson",
+          "url": "data/projects/zuid-holland-zuid/brandweerkazernes.geojson",
+          "typeUrl": "data/resourceTypes/brandweerkazernes",
+          "opacity": 0.75,
+          "defaultFeatureType": "brandweerkazernes",
+          "isDynamic": false,
+          "timeAware": false,
+          "fitToMap": true
+        },
+        {
+          "id": "gemeentehuizen",
+          "title": "Gemeentehuizen",
+          "description": "Bron: Imergis 2016",
+          "type": "geojson",
+          "url": "data/projects/zuid-holland-zuid/gemeentehuizen.geojson",
+          "typeUrl": "data/resourceTypes/gemeentehuizen",
+          "opacity": 0.75,
+          "defaultFeatureType": "gemeentehuizen",
+          "isDynamic": false,
+          "timeAware": false,
+          "fitToMap": true
+        },
+        {
+          "id": "politievestigingen",
+          "title": "Politievestigingen",
+          "description": "Bron: Imergis 2016",
+          "type": "geojson",
+          "url": "data/projects/zuid-holland-zuid/politievestigingen.geojson",
+          "typeUrl": "data/resourceTypes/politievestigingen",
+          "opacity": 0.75,
+          "defaultFeatureType": "politievestigingen",
+          "isDynamic": false,
+          "timeAware": false,
+          "fitToMap": true
+        }
+      ],
+      "clustering": true,
+      "clusterLevel": 11
+    },
+    {
+      "id": "masten en leidingen",
+      "title": "Masten en leidingen",
+      "layers": [
+        {
+          "id": "antenneregister",
+          "title": "Antenneregister",
+          "description": "Bron: Imergis 2016",
+          "type": "geojson",
+          "url": "data/projects/zuid-holland-zuid/antenneregister.geojson",
+          "typeUrl": "data/resourceTypes/antenneregister",
+          "opacity": 0.75,
+          "defaultFeatureType": "antenneregister",
+          "isDynamic": false,
+          "timeAware": false,
+          "fitToMap": true
+        },
+        {
+          "id": "hoogspanningsleidingen",
+          "title": "Hoogspanningsleidingen",
+          "description": "Bron: Imergis 2016",
+          "type": "geojson",
+          "url": "data/projects/zuid-holland-zuid/hoogspanningsleidingen.geojson",
+          "typeUrl": "data/resourceTypes/hoogspanningsleidingen",
+          "opacity": 0.75,
+          "defaultFeatureType": "hoogspanningsleidingen",
+          "isDynamic": false,
+          "timeAware": false,
+          "fitToMap": true
+        },
+        {
+          "id": "hoogspanningsmasten",
+          "title": "Hoogspanningsmasten",
+          "description": "Bron: Imergis 2016",
+          "type": "geojson",
+          "url": "data/projects/zuid-holland-zuid/hoogspanningsmasten.geojson",
+          "typeUrl": "data/resourceTypes/hoogspanningsmasten",
+          "opacity": 0.75,
+          "defaultFeatureType": "hoogspanningsmasten",
+          "isDynamic": false,
+          "timeAware": false,
+          "fitToMap": true
+        }
+      ],
+      "clustering": true,
+      "clusterLevel": 11
+    },
+    {
+      "id": "bevolking",
+      "title": "Bevolking",
+      "layers": [
+        {
+          "id": "buurt",
+          "title": "buurt",
+          "description": "Bron: CBS Gemeente, Wijk en Buurtkaart 2015",
+          "type": "geojson",
+          "url": "data/projects/zuid-holland-zuid/buurt.geojson",
+          "typeUrl": "data/resourceTypes/buurt",
+          "opacity": 0.75,
+          "defaultFeatureType": "buurt",
+          "isDynamic": false,
+          "timeAware": false,
+          "fitToMap": true
+        },
+        {
+          "id": "gemeente",
+          "title": "gemeente",
+          "description": "Bron: CBS Gemeente, Wijk en Buurtkaart 2015",
+          "type": "geojson",
+          "url": "data/projects/zuid-holland-zuid/gemeente.geojson",
+          "typeUrl": "data/resourceTypes/gemeente",
+          "opacity": 0.75,
+          "defaultFeatureType": "gemeente",
+          "isDynamic": false,
+          "timeAware": false,
+          "fitToMap": true
+        },
+        {
+          "id": "wijk",
+          "title": "Wijk",
+          "description": "Bron: CBS Gemeente, Wijk en Buurtkaart 2015",
+          "type": "geojson",
+          "url": "data/projects/zuid-holland-zuid/wijk.geojson",
+          "typeUrl": "data/resourceTypes/wijk",
+          "opacity": 0.75,
+          "defaultFeatureType": "wijk",
+          "isDynamic": false,
+          "timeAware": false,
+          "fitToMap": true
+        }
+      ],
+      "oneLayerActive": true
+    },
+    {
+      "id": "regio",
+      "title": "Regio",
+      "layers": [
+        {
+          "id": "clip",
+          "title": "zuid-holland-zuid",
+          "description": "Bron: Imergis 2016",
+          "type": "geojson",
+          "url": "data/projects/zuid-holland-zuid/clip.geojson",
+          "typeUrl": "data/resourceTypes/clip",
+          "opacity": 0.75,
+          "defaultFeatureType": "clip",
+          "isDynamic": false,
+          "timeAware": false,
+          "fitToMap": true
+        }
+      ],
+      "clustering": true,
+      "clusterLevel": 11
+    },
+    {
+      "id": "weg en spoor",
+      "title": "Weg en spoor",
+      "layers": [
+        {
+          "id": "inrichting_el_station",
+          "title": "Inrichting stations",
+          "description": "Bron: Imergis 2016",
+          "type": "geojson",
+          "url": "data/projects/zuid-holland-zuid/inrichting_el_station.geojson",
+          "typeUrl": "data/resourceTypes/inrichting_el_station",
+          "opacity": 0.75,
+          "defaultFeatureType": "inrichting_el_station",
+          "isDynamic": false,
+          "timeAware": false,
+          "fitToMap": true
+        },
+        {
+          "id": "spoorwegen",
+          "title": "Spoorwegen",
+          "description": "Bron: Imergis 2016",
+          "type": "geojson",
+          "url": "data/projects/zuid-holland-zuid/spoorwegen.geojson",
+          "typeUrl": "data/resourceTypes/spoorwegen",
+          "opacity": 0.75,
+          "defaultFeatureType": "spoorwegen",
+          "isDynamic": false,
+          "timeAware": false,
+          "fitToMap": true
+        },
+        {
+          "id": "wegdeel_vlak_brug_beweegbaar",
+          "title": "Beweegbare bruggen",
+          "description": "Bron: Imergis 2016",
+          "type": "geojson",
+          "url": "data/projects/zuid-holland-zuid/wegdeel_vlak_brug_beweegbaar.geojson",
+          "typeUrl": "data/resourceTypes/wegdeel_vlak_brug_beweegbaar",
+          "opacity": 0.75,
+          "defaultFeatureType": "wegdeel_vlak_brug_beweegbaar",
+          "isDynamic": false,
+          "timeAware": false,
+          "fitToMap": true
+        }
+      ],
+      "clustering": true,
+      "clusterLevel": 11
+    },
+    {
+      "id": "overig",
+      "title": "Overig",
+      "layers": [
+        {
+          "id": "inrichting_station",
+          "title": "inrichting_station",
+          "description": "???",
+          "type": "geojson",
+          "url": "data/projects/zuid-holland-zuid/inrichting_station.geojson",
+          "typeUrl": "data/resourceTypes/inrichting_station",
+          "opacity": 0.75,
+          "defaultFeatureType": "inrichting_station",
+          "isDynamic": false,
+          "timeAware": false,
+          "fitToMap": true
+        }
+      ],
+      "clustering": true,
+      "clusterLevel": 11
+    }
+  ],
+  "layerDirectory": "/api/layers",
+  "eventTab": false,
+  "searchProviders": [
+    {
+      "name": "bing",
+      "url": "http://dev.virtualearth.net/REST/v1/Locations",
+      "key": "Amr8FC04ddS61JzKj7yM4CaIqKWSucR29t7DmBWZbw99sgqhXmqDUSobNbgzaQFS",
+      "data": {
+        "culture": "nl",
+        "userLocation": "52.077857,4.316639"
+      }
+    },
+    {
+      "name": "OpenCageData",
+      "url": "https://api.opencagedata.com/geocode/v1/json",
+      "key": "f3d87404630aa9140c2ccfb32a2168c5",
+      "data": {
+        "culture": "nl",
+        "language": "nl-NL",
+        "userLocation": "52.077857,4.316639"
+      }
+    }
+  ],
+  "storage": "file"
+}

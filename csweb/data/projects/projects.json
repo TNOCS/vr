@@ -1,5 +1,5 @@
 {
-    "title": "csMap",
+    "title": "GeoOOV",
     
     "maxBounds": {
         "southWest": [49.2, 1.0],
@@ -161,12 +161,32 @@
         "url": "http://{s}.tile.thunderforest.com/landscape/{z}/{x}/{y}.png",        
         "attribution": "&copy; <a href='http://www.thunderforest.com/'>Thunderforest</a>, &copy; <a href='http://www.openstreetmap.org/copyright'>OpenStreetMap</a>",
         "preview": "http://a.tile.thunderforest.com/landscape/11/673/1051.png"
-    }
-    
-    ],
-    "projects": [{
-        "title": "HAAGLANDEN",
-        "url": "data/projects/haaglanden/project.json",
-        "dynamic": false
-    }]
+    }],
+    "projects": [
+        { "title": "amsterdam-amstelland", "url":  "data/projects/Amsterdam-Amstelland/project.json", "isDynamic":      false },
+        { "title": "brabant-noord", "url":         "data/projects/Brabant-noord/project.json", "isDynamic":             false },
+        { "title": "drenthe", "url":               "data/projects/Drenthe/project.json", "isDynamic":                   false },
+        { "title": "flevoland", "url":             "data/projects/Flevoland/project.json", "isDynamic":                 false },
+        { "title": "friesland", "url":             "data/projects/Fryslân/project.json", "isDynamic":                   false },
+        { "title": "gelderland-midden", "url":     "data/projects/Gelderland-Midden/project.json", "isDynamic":         false },
+        { "title": "gelderland-zuid", "url":       "data/projects/Gelderland-Zuid/project.json", "isDynamic":           false },
+        { "title": "gooi_en_vechtstreek", "url":   "data/projects/Gooi en Vechtstreek/project.json", "isDynamic":       false },
+        { "title": "groningen", "url":             "data/projects/Groningen/project.json", "isDynamic":                 false },
+        { "title": "haaglanden", "url":            "data/projects/Haaglanden/project.json", "isDynamic":                false },
+        { "title": "hollands_midden", "url":       "data/projects/Hollands Midden/project.json", "isDynamic":           false },
+        { "title": "ijsselland", "url":            "data/projects/IJsselland/project.json", "isDynamic":                false },
+        { "title": "kennemerland", "url":          "data/projects/Kennemerland/project.json", "isDynamic":              false },
+        { "title": "limburg-noord", "url":         "data/projects/Limburg-Noord/project.json", "isDynamic":             false },
+        { "title": "midden-west-brabant", "url":   "data/projects/Midden-West-Brabant/project.json", "isDynamic":       false },
+        { "title": "noord-holland-noord", "url":   "data/projects/Noord-Holland-Noord/project.json", "isDynamic":       false },
+        { "title": "noord-oost-gelderland", "url": "data/projects/Noord- en Oost-Gelderland/project.json", "isDynamic": false },
+        { "title": "rotterdam-rijnmond", "url":    "data/projects/Rotterdam-Rijnmond/project.json", "isDynamic":        false },
+        { "title": "twente", "url":                "data/projects/Twente/project.json", "isDynamic":                    false },
+        { "title": "utrecht", "url":               "data/projects/Utrecht/project.json", "isDynamic":                   false },
+        { "title": "zaanstreek-waterland", "url":  "data/projects/Zaanstreek-Waterland/project.json", "isDynamic":      false },
+        { "title": "zeeland", "url":               "data/projects/Zeeland/project.json", "isDynamic":                   false },
+        { "title": "zuid-holland-zuid", "url":     "data/projects/Zuid-Holland-Zuid/project.json", "isDynamic":         false },
+        { "title": "zuid-limburg", "url":          "data/projects/Zuid-Limburg/project.json", "isDynamic":              false },
+        { "title": "zuidoost-brabant", "url":      "data/projects/Zuidoost-Brabant/project.json", "isDynamic":          false }
+    ]
 }

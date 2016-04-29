@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                                                                  
+"features": [
+{ "type": "Feature", "properties": { "X": 142788, "Y": 475497, "X-nav": 142726, "Y-nav": 475385, "BAG Id": "0376010000002873", "Organisati": "RAV Gooi", "LOC_TYPE": "Ambulancepost", "LOC_NAAM": "post Noord", "LOC_STRAAT": "Rijksstraatweg", "Huisnr": "1", "Postcode": "1261 AN", "Plaats": "Blaricum", "GEM": "Blaricum", "Regio": 14, "Website": "www.ravgooi.com", "Telefoon": "035-6460840", "CODE": null, "BIJZONDERH": "Imergis" }, "geometry": { "type": "Point", "coordinates": [ 5.2083051, 52.2673582 ] } },
+{ "type": "Feature", "properties": { "X": 142283, "Y": 469725, "X-nav": 142291, "Y-nav": 469776, "BAG Id": "0402010001600603", "Organisati": "RAV Gooi", "LOC_TYPE": "Ambulancepost", "LOC_NAAM": "post Zuid", "LOC_STRAAT": "Van Riebeeckweg", "Huisnr": "210a", "Postcode": "1213 XZ", "Plaats": "Hilversum", "GEM": "Hilversum", "Regio": 14, "Website": "www.ravgooi.com", "Telefoon": "035-6460840", "CODE": null, "BIJZONDERH": "Imergis" }, "geometry": { "type": "Point", "coordinates": [ 5.2011239, 52.2154694 ] } },
+{ "type": "Feature", "properties": { "X": 131659, "Y": 479462, "X-nav": 131615, "Y-nav": 479447, "BAG Id": "0457010000059357", "Organisati": "RAV Gooi", "LOC_TYPE": "Ambulancepost", "LOC_NAAM": "post Vechtstreek", "LOC_STRAAT": "Aetsveldselaan", "Huisnr": "65", "Postcode": "1381 CZ", "Plaats": "Weesp", "GEM": "Weesp", "Regio": 14, "Website": "www.ravgooi.com", "Telefoon": "035-6460840", "CODE": null, "BIJZONDERH": "Imergis" }, "geometry": { "type": "Point", "coordinates": [ 5.0449996, 52.3026349 ] } }
+]
+}
