@@ -1,0 +1,257 @@
+{
+  "featureTypes": {
+    "buurt": {
+      "style": {
+        "drawingMode": "Polygon",
+        "fillColor": "#ffffff",
+        "strokeColor": "#000088",
+        "strokeWidth": 2,
+        "stroke": true,
+        "fillOpacity": 0.9,
+        "opacity": 0.9,
+        "iconWidth": 28,
+        "iconHeight": 28,
+        "nameLabel": "Name",
+        "iconUri": "images/buurt.png"
+      },
+      "propertyTypeKeys": "BU_CODE;BU_NAAM;WK_CODE;GM_CODE;GM_NAAM;IND_WBI;OAD;STED;AANT_INW;AANT_MAN;AANT_VROUW;P_00_14_JR;P_15_24_JR;P_25_44_JR;P_45_64_JR;P_65_EO_JR;P_ONGEHUWD;P_GEHUWD;P_GESCHEID;P_VERWEDUW;BEV_DICHTH;AANTAL_HH;P_EENP_HH;P_HH_Z_K;P_HH_M_K;GEM_HH_GR;P_WEST_AL;P_N_W_AL;P_SURINAM;P_TURKIJE;P_OVER_NW;AO_UIT_TOT;WW_UIT_TOT;WWB_UITTOT;A_SOZ_OW;AUTO_TOT;AUTO_HH;AUTO_LAND;BEDR_AUTO;MOTOR_2W;A_LFTJ6J;A_LFTO6J;A_BST_B;A_BST_NB;OPP_TOT;OPP_LAND;OPP_WATER"
+    }
+  },
+  "propertyTypeData": {
+    "BU_CODE": {
+      "title": "Bu code",
+      "type": "textarea",
+      "description": ""
+    },
+    "BU_NAAM": {
+      "title": "Bu naam",
+      "type": "text",
+      "description": ""
+    },
+    "WK_CODE": {
+      "title": "Wk code",
+      "type": "text",
+      "description": ""
+    },
+    "GM_CODE": {
+      "title": "Gm code",
+      "type": "text",
+      "description": ""
+    },
+    "GM_NAAM": {
+      "title": "Gm naam",
+      "type": "text",
+      "description": ""
+    },
+    "IND_WBI": {
+      "title": "Ind wbi",
+      "type": "number",
+      "description": ""
+    },
+    "OAD": {
+      "title": "Oad",
+      "type": "number",
+      "description": ""
+    },
+    "STED": {
+      "title": "Sted",
+      "type": "number",
+      "description": ""
+    },
+    "AANT_INW": {
+      "title": "Aant inw",
+      "type": "number",
+      "description": ""
+    },
+    "AANT_MAN": {
+      "title": "Aant man",
+      "type": "number",
+      "description": ""
+    },
+    "AANT_VROUW": {
+      "title": "Aant vrouw",
+      "type": "number",
+      "description": ""
+    },
+    "P_00_14_JR": {
+      "title": "P 00_14_jr",
+      "type": "number",
+      "description": ""
+    },
+    "P_15_24_JR": {
+      "title": "P 15_24_jr",
+      "type": "number",
+      "description": ""
+    },
+    "P_25_44_JR": {
+      "title": "P 25_44_jr",
+      "type": "number",
+      "description": ""
+    },
+    "P_45_64_JR": {
+      "title": "P 45_64_jr",
+      "type": "number",
+      "description": ""
+    },
+    "P_65_EO_JR": {
+      "title": "P 65_eo_jr",
+      "type": "number",
+      "description": ""
+    },
+    "P_ONGEHUWD": {
+      "title": "P ongehuwd",
+      "type": "number",
+      "description": ""
+    },
+    "P_GEHUWD": {
+      "title": "P gehuwd",
+      "type": "number",
+      "description": ""
+    },
+    "P_GESCHEID": {
+      "title": "P gescheid",
+      "type": "number",
+      "description": ""
+    },
+    "P_VERWEDUW": {
+      "title": "P verweduw",
+      "type": "number",
+      "description": ""
+    },
+    "BEV_DICHTH": {
+      "title": "Bev dichth",
+      "type": "number",
+      "description": ""
+    },
+    "AANTAL_HH": {
+      "title": "Aantal hh",
+      "type": "number",
+      "description": ""
+    },
+    "P_EENP_HH": {
+      "title": "P eenp_hh",
+      "type": "number",
+      "description": ""
+    },
+    "P_HH_Z_K": {
+      "title": "P hh_z_k",
+      "type": "number",
+      "description": ""
+    },
+    "P_HH_M_K": {
+      "title": "P hh_m_k",
+      "type": "number",
+      "description": ""
+    },
+    "GEM_HH_GR": {
+      "title": "Gem hh_gr",
+      "type": "number",
+      "description": ""
+    },
+    "P_WEST_AL": {
+      "title": "P west_al",
+      "type": "number",
+      "description": ""
+    },
+    "P_N_W_AL": {
+      "title": "P n_w_al",
+      "type": "number",
+      "description": ""
+    },
+    "P_SURINAM": {
+      "title": "P surinam",
+      "type": "number",
+      "description": ""
+    },
+    "P_TURKIJE": {
+      "title": "P turkije",
+      "type": "number",
+      "description": ""
+    },
+    "P_OVER_NW": {
+      "title": "P over_nw",
+      "type": "number",
+      "description": ""
+    },
+    "AO_UIT_TOT": {
+      "title": "Ao uit_tot",
+      "type": "number",
+      "description": ""
+    },
+    "WW_UIT_TOT": {
+      "title": "Ww uit_tot",
+      "type": "number",
+      "description": ""
+    },
+    "WWB_UITTOT": {
+      "title": "Wwb uittot",
+      "type": "number",
+      "description": ""
+    },
+    "A_SOZ_OW": {
+      "title": "A soz_ow",
+      "type": "number",
+      "description": ""
+    },
+    "AUTO_TOT": {
+      "title": "Auto tot",
+      "type": "number",
+      "description": ""
+    },
+    "AUTO_HH": {
+      "title": "Auto hh",
+      "type": "number",
+      "description": ""
+    },
+    "AUTO_LAND": {
+      "title": "Auto land",
+      "type": "number",
+      "description": ""
+    },
+    "BEDR_AUTO": {
+      "title": "Bedr auto",
+      "type": "number",
+      "description": ""
+    },
+    "MOTOR_2W": {
+      "title": "Motor 2w",
+      "type": "number",
+      "description": ""
+    },
+    "A_LFTJ6J": {
+      "title": "A lftj6j",
+      "type": "number",
+      "description": ""
+    },
+    "A_LFTO6J": {
+      "title": "A lfto6j",
+      "type": "number",
+      "description": ""
+    },
+    "A_BST_B": {
+      "title": "A bst_b",
+      "type": "number",
+      "description": ""
+    },
+    "A_BST_NB": {
+      "title": "A bst_nb",
+      "type": "number",
+      "description": ""
+    },
+    "OPP_TOT": {
+      "title": "Opp tot",
+      "type": "number",
+      "description": ""
+    },
+    "OPP_LAND": {
+      "title": "Opp land",
+      "type": "number",
+      "description": ""
+    },
+    "OPP_WATER": {
+      "title": "Opp water",
+      "type": "number",
+      "description": ""
+    }
+  }
+}

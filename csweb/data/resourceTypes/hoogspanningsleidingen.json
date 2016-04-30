@@ -1,0 +1,117 @@
+{
+  "featureTypes": {
+    "hoogspanningsleidingen": {
+      "style": {
+        "drawingMode": "LineString",
+        "fillColor": "#ffffff",
+        "strokeColor": "#000088",
+        "strokeWidth": 2,
+        "stroke": true,
+        "fillOpacity": 0.9,
+        "opacity": 0.9,
+        "iconWidth": 28,
+        "iconHeight": 28,
+        "nameLabel": "Name",
+        "iconUri": "images/hoogspanningsleidingen.png"
+      },
+      "propertyTypeKeys": "ogc_fid;fid;namespace;lokaalid;brontype;bronactual;bronbeschr;bronnauwke;objectbegi;tijdstipre;tdncode;visualisat;typeinfras;typespoorb;spoorbreed;aantalspor;vervoerfun;elektrific;status"
+    }
+  },
+  "propertyTypeData": {
+    "ogc_fid": {
+      "title": "Ogc fid",
+      "type": "number",
+      "description": ""
+    },
+    "fid": {
+      "title": "Fid",
+      "type": "number",
+      "description": ""
+    },
+    "namespace": {
+      "title": "Namespace",
+      "type": "textarea",
+      "description": ""
+    },
+    "lokaalid": {
+      "title": "Lokaalid",
+      "type": "number",
+      "description": ""
+    },
+    "brontype": {
+      "title": "Brontype",
+      "type": "textarea",
+      "description": ""
+    },
+    "bronactual": {
+      "title": "Bronactual",
+      "type": "textarea",
+      "description": ""
+    },
+    "bronbeschr": {
+      "title": "Bronbeschr",
+      "type": "textarea",
+      "description": ""
+    },
+    "bronnauwke": {
+      "title": "Bronnauwke",
+      "type": "number",
+      "description": ""
+    },
+    "objectbegi": {
+      "title": "Objectbegi",
+      "type": "textarea",
+      "description": ""
+    },
+    "tijdstipre": {
+      "title": "Tijdstipre",
+      "type": "textarea",
+      "description": ""
+    },
+    "tdncode": {
+      "title": "Tdncode",
+      "type": "number",
+      "description": ""
+    },
+    "visualisat": {
+      "title": "Visualisat",
+      "type": "number",
+      "description": ""
+    },
+    "typeinfras": {
+      "title": "Typeinfras",
+      "type": "textarea",
+      "description": ""
+    },
+    "typespoorb": {
+      "title": "Typespoorb",
+      "type": "text",
+      "description": ""
+    },
+    "spoorbreed": {
+      "title": "Spoorbreed",
+      "type": "textarea",
+      "description": ""
+    },
+    "aantalspor": {
+      "title": "Aantalspor",
+      "type": "text",
+      "description": ""
+    },
+    "vervoerfun": {
+      "title": "Vervoerfun",
+      "type": "textarea",
+      "description": ""
+    },
+    "elektrific": {
+      "title": "Elektrific",
+      "type": "text",
+      "description": ""
+    },
+    "status": {
+      "title": "Status",
+      "type": "textarea",
+      "description": ""
+    }
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "featureTypes": {
+    "wegdeel_vlak_brug_beweegbaar": {
+      "style": {
+        "drawingMode": "Polygon",
+        "fillColor": "#ffffff",
+        "strokeColor": "#000088",
+        "strokeWidth": 2,
+        "stroke": true,
+        "fillOpacity": 0.9,
+        "opacity": 0.9,
+        "iconWidth": 28,
+        "iconHeight": 28,
+        "nameLabel": "Name",
+        "iconUri": "images/wegdeel_vlak_brug_beweegbaar.png"
+      },
+      "propertyTypeKeys": "ogc_fid;fid;namespace;lokaalid;brontype;bronactual;bronbeschr;bronnauwke;objectbegi;tijdstipre;tdncode;visualisat;typeinfras;typeweg;hoofdverke;fysiekvoor;verharding;gescheiden;verhardi_1;status;swegnummer"
+    }
+  },
+  "propertyTypeData": {
+    "ogc_fid": {
+      "title": "Ogc fid",
+      "type": "number",
+      "description": ""
+    },
+    "fid": {
+      "title": "Fid",
+      "type": "number",
+      "description": ""
+    },
+    "namespace": {
+      "title": "Namespace",
+      "type": "textarea",
+      "description": ""
+    },
+    "lokaalid": {
+      "title": "Lokaalid",
+      "type": "number",
+      "description": ""
+    },
+    "brontype": {
+      "title": "Brontype",
+      "type": "textarea",
+      "description": ""
+    },
+    "bronactual": {
+      "title": "Bronactual",
+      "type": "textarea",
+      "description": ""
+    },
+    "bronbeschr": {
+      "title": "Bronbeschr",
+      "type": "textarea",
+      "description": ""
+    },
+    "bronnauwke": {
+      "title": "Bronnauwke",
+      "type": "number",
+      "description": ""
+    },
+    "objectbegi": {
+      "title": "Objectbegi",
+      "type": "textarea",
+      "description": ""
+    },
+    "tijdstipre": {
+      "title": "Tijdstipre",
+      "type": "textarea",
+      "description": ""
+    },
+    "tdncode": {
+      "title": "Tdncode",
+      "type": "number",
+      "description": ""
+    },
+    "visualisat": {
+      "title": "Visualisat",
+      "type": "number",
+      "description": ""
+    },
+    "typeinfras": {
+      "title": "Typeinfras",
+      "type": "textarea",
+      "description": ""
+    },
+    "typeweg": {
+      "title": "Typeweg",
+      "type": "textarea",
+      "description": ""
+    },
+    "hoofdverke": {
+      "title": "Hoofdverke",
+      "type": "textarea",
+      "description": ""
+    },
+    "fysiekvoor": {
+      "title": "Fysiekvoor",
+      "type": "textarea",
+      "description": ""
+    },
+    "verharding": {
+      "title": "Verharding",
+      "type": "textarea",
+      "description": ""
+    },
+    "gescheiden": {
+      "title": "Gescheiden",
+      "type": "text",
+      "description": ""
+    },
+    "verhardi_1": {
+      "title": "Verhardi 1",
+      "type": "text",
+      "description": ""
+    },
+    "status": {
+      "title": "Status",
+      "type": "textarea",
+      "description": ""
+    },
+    "swegnummer": {
+      "title": "Swegnummer",
+      "type": "text",
+      "description": ""
+    }
+  }
+}

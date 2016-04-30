@@ -1,0 +1,107 @@
+{
+  "featureTypes": {
+    "politievestigingen": {
+      "style": {
+        "drawingMode": "Point",
+        "fillColor": "#ffffff",
+        "strokeColor": "#000088",
+        "strokeWidth": 2,
+        "stroke": true,
+        "fillOpacity": 0.9,
+        "opacity": 0.9,
+        "iconWidth": 28,
+        "iconHeight": 28,
+        "nameLabel": "Name",
+        "iconUri": "images/politievestigingen.png"
+      },
+      "propertyTypeKeys": "X;Y;X-nav;Y-nav;BAGvobid;Organisati;LOC_TYPE;LOC_NAAM;LOC_STRAAT;Huisnr;Postcode;Woonplaats;GEM;Regio;URL;Telefoon;BIJZONDERH"
+    }
+  },
+  "propertyTypeData": {
+    "X": {
+      "title": "X",
+      "type": "number",
+      "description": ""
+    },
+    "Y": {
+      "title": "Y",
+      "type": "number",
+      "description": ""
+    },
+    "X-nav": {
+      "title": "X-nav",
+      "type": "number",
+      "description": ""
+    },
+    "Y-nav": {
+      "title": "Y-nav",
+      "type": "number",
+      "description": ""
+    },
+    "BAGvobid": {
+      "title": "Bagvobid",
+      "type": "number",
+      "description": ""
+    },
+    "Organisati": {
+      "title": "Organisati",
+      "type": "textarea",
+      "description": ""
+    },
+    "LOC_TYPE": {
+      "title": "Loc type",
+      "type": "textarea",
+      "description": ""
+    },
+    "LOC_NAAM": {
+      "title": "Loc naam",
+      "type": "textarea",
+      "description": ""
+    },
+    "LOC_STRAAT": {
+      "title": "Loc straat",
+      "type": "textarea",
+      "description": ""
+    },
+    "Huisnr": {
+      "title": "Huisnr",
+      "type": "number",
+      "description": ""
+    },
+    "Postcode": {
+      "title": "Postcode",
+      "type": "text",
+      "description": ""
+    },
+    "Woonplaats": {
+      "title": "Woonplaats",
+      "type": "textarea",
+      "description": ""
+    },
+    "GEM": {
+      "title": "Gem",
+      "type": "textarea",
+      "description": ""
+    },
+    "Regio": {
+      "title": "Regio",
+      "type": "number",
+      "description": ""
+    },
+    "URL": {
+      "title": "Url",
+      "type": "textarea",
+      "description": ""
+    },
+    "Telefoon": {
+      "title": "Telefoon",
+      "type": "textarea",
+      "description": ""
+    },
+    "BIJZONDERH": {
+      "title": "Bijzonderh",
+      "type": "text",
+      "description": ""
+    }
+  }
+}

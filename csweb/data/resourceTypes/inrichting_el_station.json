@@ -1,0 +1,92 @@
+{
+  "featureTypes": {
+    "inrichting_el_station": {
+      "style": {
+        "drawingMode": "Point",
+        "fillColor": "#ffffff",
+        "strokeColor": "#000088",
+        "strokeWidth": 2,
+        "stroke": true,
+        "fillOpacity": 0.9,
+        "opacity": 0.9,
+        "iconWidth": 28,
+        "iconHeight": 28,
+        "nameLabel": "Name",
+        "iconUri": "images/inrichting_el_station.png"
+      },
+      "propertyTypeKeys": "ogc_fid;fid;namespace;lokaalid;brontype;bronactual;bronbeschr;bronnauwke;objectbegi;tijdstipre;tdncode;visualisat;typeinrich;naam"
+    }
+  },
+  "propertyTypeData": {
+    "ogc_fid": {
+      "title": "Ogc fid",
+      "type": "number",
+      "description": ""
+    },
+    "fid": {
+      "title": "Fid",
+      "type": "number",
+      "description": ""
+    },
+    "namespace": {
+      "title": "Namespace",
+      "type": "textarea",
+      "description": ""
+    },
+    "lokaalid": {
+      "title": "Lokaalid",
+      "type": "number",
+      "description": ""
+    },
+    "brontype": {
+      "title": "Brontype",
+      "type": "textarea",
+      "description": ""
+    },
+    "bronactual": {
+      "title": "Bronactual",
+      "type": "textarea",
+      "description": ""
+    },
+    "bronbeschr": {
+      "title": "Bronbeschr",
+      "type": "textarea",
+      "description": ""
+    },
+    "bronnauwke": {
+      "title": "Bronnauwke",
+      "type": "number",
+      "description": ""
+    },
+    "objectbegi": {
+      "title": "Objectbegi",
+      "type": "textarea",
+      "description": ""
+    },
+    "tijdstipre": {
+      "title": "Tijdstipre",
+      "type": "textarea",
+      "description": ""
+    },
+    "tdncode": {
+      "title": "Tdncode",
+      "type": "number",
+      "description": ""
+    },
+    "visualisat": {
+      "title": "Visualisat",
+      "type": "number",
+      "description": ""
+    },
+    "typeinrich": {
+      "title": "Typeinrich",
+      "type": "textarea",
+      "description": ""
+    },
+    "naam": {
+      "title": "Naam",
+      "type": "textarea",
+      "description": ""
+    }
+  }
+}
