@@ -1,5 +1,5 @@
 {
-    "title": "GeoOOV",
+    "id": "GeoOOV",
     
     "maxBounds": {
         "southWest": [49.2, 1.0],
@@ -28,7 +28,7 @@
         }
     },
     "baselayers": [{
-        "title": "OpenStreetMap HOT",
+        "id": "OpenStreetMap HOT",
         "subtitle": "Road",
         "url": "http://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png",
         "isDefault": false,
@@ -40,7 +40,7 @@
         "attribution": "Tiles courtesy of <a href='http://hot.openstreetmap.org/' target='_blank'>Humanitarian OpenStreetMap Team</a>",
         "preview": "http://b.tile.openstreetmap.fr/hot/11/1048/675.png"
     }, {
-        "title": "OpenStreetMap",
+        "id": "OpenStreetMap",
         "subtitle": "Road",
         "url": "http://{s}.mqcdn.com/tiles/1.0.0/osm/{z}/{x}/{y}.png",
         "isDefault": true,
@@ -52,7 +52,7 @@
         "attribution": "Tiles courtesy of <a href='http://www.mapquest.com/' target='_blank'>MapQuest</a> <img src='http://developer.mapquest.com/content/osm/mq_logo.png'>. Map data (c) <a href='http://www.openstreetmap.org/' target='_blank'>OpenStreetMap</a> contributors, CC-BY-SA.",
         "preview": "http://c.tile.openstreetmap.org/11/1051/673.png"
     }, {
-        "title": "OSM Mapnik",
+        "id": "OSM Mapnik",
         "subtitle": "Mapnik",
         "url": "http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
         "cesium_url": "http://tile.openstreetmap.org/",
@@ -63,7 +63,7 @@
         "attribution": "&copy; <a href=\"http://openstreetmap.org\">OpenStreetMap</a> contributors, <a href=\"http://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA</a>",
         "preview": "https://a.tiles.mapbox.com/v3/foursquare.meku766r/11/1051/673.png"
     }, {
-        "title": "Black-White",
+        "id": "Black-White",
         "subtitle": "Stamen",
         "url": "http://{s}.tile.stamen.com/toner/{z}/{x}/{y}.png",
         "cesium_url": "http://c.tile.stamen.com/toner/",
@@ -74,7 +74,7 @@
         "attribution": "",
         "preview": "http://a.tile.stamen.com/toner/11/1051/673.png"
     }, {
-        "title": "Watercolor",
+        "id": "Watercolor",
         "subtitle": "Stamen",
         "url": "http://{s}.tile.stamen.com/watercolor/{z}/{x}/{y}.png",
         "cesium_url": "http://d.tile.stamen.com/watercolor/",
@@ -85,7 +85,7 @@
         "attribution": "",
         "preview": "http://a.tile.stamen.com/watercolor/11/1051/673.png"
     }, {
-        "title": "World Imagery",
+        "id": "World Imagery",
         "subtitle": "from ESRI",
         "isDefault": false,
         "minZoom": 0,
@@ -96,7 +96,7 @@
         "attribution": "Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community",
         "preview": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/11/673/1051.png"
     }, {
-        "title": "World Terrain Base",
+        "id": "World Terrain Base",
         "subtitle": "from ESRI",
         "minZoom": 0,
         "maxZoom": 18,
@@ -106,7 +106,7 @@
         "attribution": "Tiles &copy; Esri &mdash; National Geographic, Esri, DeLorme, NAVTEQ, UNEP-WCMC, USGS, NASA, ESA, METI, NRCAN, GEBCO, NOAA, iPC",
         "preview": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Terrain_Base/MapServer/tile/11/673/1051.png"
     }, {
-        "title": "Gray Scale",
+        "id": "Gray Scale",
         "subtitle": "from openstreetmap",
         "minZoom": 0,
         "maxZoom": 18,        
@@ -114,7 +114,7 @@
         "attribution": "&copy; <a href='http://www.openstreetmap.org/copyright'>OpenStreetMap</a>",
         "preview": "http://a.tiles.wmflabs.org/bw-mapnik/11/673/1051.png"
     },{
-        "title": "Positron",
+        "id": "Positron",
         "isDefault": false,
         "subtitle": "From CartoDB",
         "subdomains": ["a", "b", "c", "d"],
@@ -126,7 +126,7 @@
         "attribution": "Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community",
         "preview": "http://a.basemaps.cartocdn.com/light_nolabels/11/673/1051.png"
     },{
-        "title": "Transport",        
+        "id": "Transport",        
         "subtitle": "from thuderforest",
         "subdomains": ["a", "b", "c"],
         "minZoom": 0,
@@ -135,7 +135,7 @@
         "attribution": "&copy; <a href='http://www.thunderforest.com/'>Thunderforest</a>, &copy; <a href='http://www.openstreetmap.org/copyright'>OpenStreetMap</a>",
         "preview": "http://a.tile.thunderforest.com/transport/11/673/1051.png"
     },{
-        "title": "Open Cycle Map",        
+        "id": "Open Cycle Map",        
         "subtitle": "from thuderforest",
         "subdomains": ["a", "b", "c"],
         "minZoom": 0,
@@ -144,7 +144,7 @@
         "attribution": "&copy; <a href='http://www.thunderforest.com/'>Thunderforest</a>, &copy; <a href='http://www.openstreetmap.org/copyright'>OpenStreetMap</a>",
         "preview": "http://a.tile.thunderforest.com/cycle/11/673/1051.png"
     },{
-        "title": "Outdoors",        
+        "id": "Outdoors",        
         "subtitle": "from thuderforest",
         "subdomains": ["a", "b", "c"],
         "minZoom": 0,
@@ -153,7 +153,7 @@
         "attribution": "&copy; <a href='http://www.thunderforest.com/'>Thunderforest</a>, &copy; <a href='http://www.openstreetmap.org/copyright'>OpenStreetMap</a>",
         "preview": "http://a.tile.thunderforest.com/outdoors/11/673/1051.png"
     },{
-        "title": "Landscape",        
+        "id": "Landscape",        
         "subtitle": "from thuderforest",
         "subdomains": ["a", "b", "c"],
         "minZoom": 0,
@@ -162,31 +162,5 @@
         "attribution": "&copy; <a href='http://www.thunderforest.com/'>Thunderforest</a>, &copy; <a href='http://www.openstreetmap.org/copyright'>OpenStreetMap</a>",
         "preview": "http://a.tile.thunderforest.com/landscape/11/673/1051.png"
     }],
-    "projects": [
-        { "title": "amsterdam-amstelland", "url":  "data/projects/Amsterdam-Amstelland/project.json", "isDynamic":      false },
-        { "title": "brabant-noord", "url":         "data/projects/Brabant-noord/project.json", "isDynamic":             false },
-        { "title": "drenthe", "url":               "data/projects/Drenthe/project.json", "isDynamic":                   false },
-        { "title": "flevoland", "url":             "data/projects/Flevoland/project.json", "isDynamic":                 false },
-        { "title": "friesland", "url":             "data/projects/Fryslân/project.json", "isDynamic":                   false },
-        { "title": "gelderland-midden", "url":     "data/projects/Gelderland-Midden/project.json", "isDynamic":         false },
-        { "title": "gelderland-zuid", "url":       "data/projects/Gelderland-Zuid/project.json", "isDynamic":           false },
-        { "title": "gooi_en_vechtstreek", "url":   "data/projects/Gooi en Vechtstreek/project.json", "isDynamic":       false },
-        { "title": "groningen", "url":             "data/projects/Groningen/project.json", "isDynamic":                 false },
-        { "title": "haaglanden", "url":            "data/projects/Haaglanden/project.json", "isDynamic":                false },
-        { "title": "hollands_midden", "url":       "data/projects/Hollands Midden/project.json", "isDynamic":           false },
-        { "title": "ijsselland", "url":            "data/projects/IJsselland/project.json", "isDynamic":                false },
-        { "title": "kennemerland", "url":          "data/projects/Kennemerland/project.json", "isDynamic":              false },
-        { "title": "limburg-noord", "url":         "data/projects/Limburg-Noord/project.json", "isDynamic":             false },
-        { "title": "midden-west-brabant", "url":   "data/projects/Midden-West-Brabant/project.json", "isDynamic":       false },
-        { "title": "noord-holland-noord", "url":   "data/projects/Noord-Holland-Noord/project.json", "isDynamic":       false },
-        { "title": "noord-oost-gelderland", "url": "data/projects/Noord- en Oost-Gelderland/project.json", "isDynamic": false },
-        { "title": "rotterdam-rijnmond", "url":    "data/projects/Rotterdam-Rijnmond/project.json", "isDynamic":        false },
-        { "title": "twente", "url":                "data/projects/Twente/project.json", "isDynamic":                    false },
-        { "title": "utrecht", "url":               "data/projects/Utrecht/project.json", "isDynamic":                   false },
-        { "title": "zaanstreek-waterland", "url":  "data/projects/Zaanstreek-Waterland/project.json", "isDynamic":      false },
-        { "title": "zeeland", "url":               "data/projects/Zeeland/project.json", "isDynamic":                   false },
-        { "title": "zuid-holland-zuid", "url":     "data/projects/Zuid-Holland-Zuid/project.json", "isDynamic":         false },
-        { "title": "zuid-limburg", "url":          "data/projects/Zuid-Limburg/project.json", "isDynamic":              false },
-        { "title": "zuidoost-brabant", "url":      "data/projects/Zuidoost-Brabant/project.json", "isDynamic":          false }
-    ]
+    "projects": []
 }

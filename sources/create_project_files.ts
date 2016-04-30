@@ -108,12 +108,13 @@ fs.readFile(defaultProjectUrl, (err, data) => {
         }).filter(file => {
             return !fs.statSync(file).isFile();
         }).forEach(folder => {
-            let id = path.basename(folder);
+            let id = path.basename(folder).toLowerCase();
             let title = projectIdToTitle(id);
             // Create links
             // console.log('<li><a href="csweb/index.html?project=%s">%s</a></li>', id, title);
             // Create default solution project links
-            // console.log('{ "title": "%s", "url": "data/projects/%s/project.json", "isDynamic": false },', id, title);
+            // console.log(`{ "id": "${id}", "title": "${title}", "url": "data/projects/${id}/project.json", "isDynamic": false },`);
+            // return;
 
             // Create project files
             fs.readdir(folder, (err, files) => {
