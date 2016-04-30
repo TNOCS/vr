@@ -3,6 +3,7 @@
     "title": "HAAGLANDEN",
     "logo": "images/politie_zwart.png",
     "isDynamic": false,
+    "showLocation": true,
     "timeLine": {
         "enableLive": false,
         "enablePlay": false,
@@ -40,13 +41,15 @@
                 { 
                     "directive": "locationwidget", 
                     "enabled": true, 
-                    "style": "transparent", 
-                    "height": "230px", 
+                    "style": "white", 
+                    "width": "300px",
+                    "height": "145px", 
                     "bottom": "75px", 
-                    "left": "30%", 
-                    "right": "30%", 
+                    "left": "40%", 
                     "data": { 
-                        "streetViewApiKey": "AIzaSyDKFM7-fvJzuu1LNiMfd7WlOosBP-E20vc" 
+                        "streetViewApiKey": "AIzaSyDKFM7-fvJzuu1LNiMfd7WlOosBP-E20vc",
+                        "showCoordinates": true,
+                        "showSunMoonRise": true
                     } 
                 }                
             ],
