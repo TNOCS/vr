@@ -42,10 +42,10 @@
           "directive": "locationwidget",
           "enabled": true,
           "style": "white",
-          "width": "300px",
+          "width": "330px",
           "height": "145px",
           "bottom": "75px",
-          "left": "40%",
+          "left": "35%",
           "data": {
             "streetViewApiKey": "AIzaSyDKFM7-fvJzuu1LNiMfd7WlOosBP-E20vc",
             "showCoordinates": true,
@@ -159,7 +159,7 @@
         }
       ],
       "clustering": true,
-      "clusterLevel": 11
+      "clusterLevel": 10
     },
     {
       "id": "masten en leidingen",
@@ -206,7 +206,7 @@
         }
       ],
       "clustering": true,
-      "clusterLevel": 11
+      "clusterLevel": 10
     },
     {
       "id": "bevolking",
@@ -255,53 +255,6 @@
       "oneLayerActive": true
     },
     {
-      "id": "overig",
-      "title": "Overig",
-      "layers": [
-        {
-          "id": "capped_Buurt_2015",
-          "title": "capped_Buurt_2015",
-          "description": "???",
-          "type": "geojson",
-          "url": "data/projects/haaglanden/capped_Buurt_2015.geojson",
-          "typeUrl": "data/resourceTypes/capped_Buurt_2015.json",
-          "opacity": 75,
-          "defaultFeatureType": "capped_Buurt_2015",
-          "isDynamic": false,
-          "timeAware": false,
-          "fitToMap": true
-        },
-        {
-          "id": "capped_Wijk_2015",
-          "title": "capped_Wijk_2015",
-          "description": "???",
-          "type": "geojson",
-          "url": "data/projects/haaglanden/capped_Wijk_2015.geojson",
-          "typeUrl": "data/resourceTypes/capped_Wijk_2015.json",
-          "opacity": 75,
-          "defaultFeatureType": "capped_Wijk_2015",
-          "isDynamic": false,
-          "timeAware": false,
-          "fitToMap": true
-        },
-        {
-          "id": "inrichting_station",
-          "title": "inrichting_station",
-          "description": "???",
-          "type": "geojson",
-          "url": "data/projects/haaglanden/inrichting_station.geojson",
-          "typeUrl": "data/resourceTypes/inrichting_station.json",
-          "opacity": 75,
-          "defaultFeatureType": "inrichting_station",
-          "isDynamic": false,
-          "timeAware": false,
-          "fitToMap": true
-        }
-      ],
-      "clustering": true,
-      "clusterLevel": 11
-    },
-    {
       "id": "regio",
       "title": "Regio",
       "layers": [
@@ -320,7 +273,7 @@
         }
       ],
       "clustering": true,
-      "clusterLevel": 11
+      "clusterLevel": 10
     },
     {
       "id": "weg en spoor",
@@ -367,7 +320,28 @@
         }
       ],
       "clustering": true,
-      "clusterLevel": 11
+      "clusterLevel": 10
+    },
+    {
+      "id": "overig",
+      "title": "Overig",
+      "layers": [
+        {
+          "id": "inrichting_station",
+          "title": "inrichting_station",
+          "description": "???",
+          "type": "geojson",
+          "url": "data/projects/haaglanden/inrichting_station.geojson",
+          "typeUrl": "data/resourceTypes/inrichting_station.json",
+          "opacity": 75,
+          "defaultFeatureType": "inrichting_station",
+          "isDynamic": false,
+          "timeAware": false,
+          "fitToMap": true
+        }
+      ],
+      "clustering": true,
+      "clusterLevel": 10
     }
   ],
   "layerDirectory": "/api/layers",

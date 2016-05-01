@@ -42,10 +42,10 @@
           "directive": "locationwidget",
           "enabled": true,
           "style": "white",
-          "width": "300px",
+          "width": "330px",
           "height": "145px",
           "bottom": "75px",
-          "left": "40%",
+          "left": "35%",
           "data": {
             "streetViewApiKey": "AIzaSyDKFM7-fvJzuu1LNiMfd7WlOosBP-E20vc",
             "showCoordinates": true,
@@ -159,7 +159,7 @@
         }
       ],
       "clustering": true,
-      "clusterLevel": 11
+      "clusterLevel": 10
     },
     {
       "id": "masten en leidingen",
@@ -206,7 +206,7 @@
         }
       ],
       "clustering": true,
-      "clusterLevel": 11
+      "clusterLevel": 10
     },
     {
       "id": "bevolking",
@@ -273,7 +273,7 @@
         }
       ],
       "clustering": true,
-      "clusterLevel": 11
+      "clusterLevel": 10
     },
     {
       "id": "weg en spoor",
@@ -320,7 +320,7 @@
         }
       ],
       "clustering": true,
-      "clusterLevel": 11
+      "clusterLevel": 10
     },
     {
       "id": "overig",
@@ -341,7 +341,7 @@
         }
       ],
       "clustering": true,
-      "clusterLevel": 11
+      "clusterLevel": 10
     }
   ],
   "layerDirectory": "/api/layers",

@@ -50,7 +50,7 @@
     },
     "LOC_TYPE": {
       "title": "Loc type",
-      "type": "textarea",
+      "type": "text",
       "description": ""
     },
     "LOC_NAAM": {
@@ -90,12 +90,13 @@
     },
     "Website": {
       "title": "Website",
-      "type": "textarea",
-      "description": ""
+      "type": "bbcode",
+      "description": "",
+      "stringFormat": "[url=http://{0}]website[/url]"
     },
     "Telefoon": {
       "title": "Telefoon",
-      "type": "textarea",
+      "type": "text",
       "description": ""
     },
     "BIJZONDERH": {

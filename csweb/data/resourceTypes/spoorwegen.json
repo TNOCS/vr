@@ -30,7 +30,7 @@
     },
     "namespace": {
       "title": "Namespace",
-      "type": "textarea",
+      "type": "text",
       "description": ""
     },
     "lokaalid": {
@@ -40,12 +40,12 @@
     },
     "brontype": {
       "title": "Brontype",
-      "type": "textarea",
+      "type": "text",
       "description": ""
     },
     "bronactual": {
       "title": "Bronactual",
-      "type": "textarea",
+      "type": "text",
       "description": ""
     },
     "bronbeschr": {
@@ -60,12 +60,12 @@
     },
     "objectbegi": {
       "title": "Objectbegi",
-      "type": "textarea",
+      "type": "text",
       "description": ""
     },
     "tijdstipre": {
       "title": "Tijdstipre",
-      "type": "textarea",
+      "type": "text",
       "description": ""
     },
     "tdncode": {
@@ -80,7 +80,7 @@
     },
     "typeinfras": {
       "title": "Typeinfras",
-      "type": "textarea",
+      "type": "text",
       "description": ""
     },
     "typespoorb": {
@@ -90,7 +90,7 @@
     },
     "spoorbreed": {
       "title": "Spoorbreed",
-      "type": "textarea",
+      "type": "text",
       "description": ""
     },
     "aantalspor": {
@@ -110,7 +110,7 @@
     },
     "status": {
       "title": "Status",
-      "type": "textarea",
+      "type": "text",
       "description": ""
     }
   }

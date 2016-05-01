@@ -85,16 +85,16 @@
     "Website": {
       "title": "Website",
       "type": "bbcode",
-      "stringFormat": "[website]({0})",
+      "stringFormat": "[url=http://{0}]website[/url]",
       "description": "Link naar de website"
     },
     "Telefoon": {
       "title": "Telefoon",
-      "type": "textarea"
+      "type": "text"
     },
     "BIJZONDERH": {
-      "title": "Bijzonderhede",
-      "type": "textarea"
+      "title": "Bijzonderheden",
+      "type": "text"
     }
   }
 }
