@@ -49,6 +49,8 @@ module App {
             private $dashboardService: csComp.Services.DashboardService,
             private geoService: csComp.Services.GeoService
         ) {
+            L.Icon.Default.imagePath = 'images';
+            
             sffjs.setCulture('nl-NL');
 
             $scope.vm = this;
