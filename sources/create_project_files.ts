@@ -166,7 +166,7 @@ function createProjectFiles(folder: string, data: Buffer, id: string, title: str
                 };
                 if (info.clustering) {
                     newGroup.clustering = true;
-                    newGroup.clusterLevel = 11;
+                    newGroup.clusterLevel = 10;
                 }
                 if (info.oneActive) {
                     newGroup.oneLayerActive = true;
@@ -202,8 +202,31 @@ function createProjectFiles(folder: string, data: Buffer, id: string, title: str
 function capitalizeFirstLetter(string) {
     return string.charAt(0).toUpperCase() + string.slice(1);
 }
+
 function isNumeric(n) {
   return !isNaN(parseFloat(n)) && isFinite(n);
+}
+
+function createPropertyType(key: string, prop: any) {
+    let title = capitalizeFirstLetter(key.toLowerCase().replace('_', ' '));
+    let type = isNumeric(prop) 
+        ? 'number'
+        : prop.length > 12
+            ? 'textarea'
+            : 'text';
+    let sf = '';
+    if (type !== 'number') {
+        if (prop.indexOf('http') >= 0) {
+            type = 'bbcode';
+            sf = '[url={0}]website[/url]'
+        } else if (prop.indexOf('.com') >= 0 || prop.indexOf('.nl') >= 0) {
+            type = 'bbcode';
+            sf = '[url=http://{0}]website[/url]'
+        }
+    }
+    let pt = new PropertyType(title, type);
+    if (sf) pt['stringFormat'] = sf;
+    return pt;
 }
 
 var resourceFilesBeingProcessed: string[] = [];
@@ -246,13 +269,25 @@ function createTypeResource(geojsonUrl: string, fileTypeUrl: string, defaultFeat
                 if (!f.properties.hasOwnProperty(key)) continue;
                 let prop = f.properties[key];
                 if (!prop) continue;
-                let title = capitalizeFirstLetter(key.toLowerCase().replace('_', ' '));
-                let type = isNumeric(prop) 
-                    ? 'number'
-                    : prop.length > 8
-                        ? 'textarea'
-                        : 'text'; 
-                tr.propertyTypeData[key] = new PropertyType(title, type);
+                // let title = capitalizeFirstLetter(key.toLowerCase().replace('_', ' '));
+                // let type = isNumeric(prop) 
+                //     ? 'number'
+                //     : prop.length > 12
+                //         ? 'textarea'
+                //         : 'text';
+                // let sf = '';
+                // if (type !== 'number') {
+                //     if (prop.indexOf('http') >= 0) {
+                //         type = 'bbcode';
+                //         sf = '[url={0}]website[/url]'
+                //     } else if (prop.indexOf('.com') >= 0 || prop.indexOf('.nl') >= 0) {
+                //         type = 'bbcode';
+                //         sf = '[url=http://{0}]website[/url]'
+                //     }
+                // }
+                // let pt = new PropertyType(title, type);
+                // if (sf) pt['stringFormat'] = sf;
+                tr.propertyTypeData[key] = createPropertyType(key, prop);
                 ft.propertyTypeKeys += ft.propertyTypeKeys ? `;${key}` : key;               
             }
             console.log(`Writing type resource ${fileTypeUrl}...`);
