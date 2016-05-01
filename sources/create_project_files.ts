@@ -42,7 +42,8 @@ export class FeatureType {
     style = {
         drawingMode: 'Point',
         fillColor: '#ffffff',
-        strokeColor: '#000088',
+        strokeColor: '#ffffff',
+        selectedStrokeColor: '#0000FF',
         strokeWidth: 2,
         stroke: true,
         fillOpacity: 0.9,
@@ -269,24 +270,6 @@ function createTypeResource(geojsonUrl: string, fileTypeUrl: string, defaultFeat
                 if (!f.properties.hasOwnProperty(key)) continue;
                 let prop = f.properties[key];
                 if (!prop) continue;
-                // let title = capitalizeFirstLetter(key.toLowerCase().replace('_', ' '));
-                // let type = isNumeric(prop) 
-                //     ? 'number'
-                //     : prop.length > 12
-                //         ? 'textarea'
-                //         : 'text';
-                // let sf = '';
-                // if (type !== 'number') {
-                //     if (prop.indexOf('http') >= 0) {
-                //         type = 'bbcode';
-                //         sf = '[url={0}]website[/url]'
-                //     } else if (prop.indexOf('.com') >= 0 || prop.indexOf('.nl') >= 0) {
-                //         type = 'bbcode';
-                //         sf = '[url=http://{0}]website[/url]'
-                //     }
-                // }
-                // let pt = new PropertyType(title, type);
-                // if (sf) pt['stringFormat'] = sf;
                 tr.propertyTypeData[key] = createPropertyType(key, prop);
                 ft.propertyTypeKeys += ft.propertyTypeKeys ? `;${key}` : key;               
             }

@@ -4,59 +4,52 @@
       "style": {
         "drawingMode": "Point",
         "fillColor": "#ffffff",
-        "strokeColor": "#000088",
+        "strokeColor": "#ffffff",
+        "selectedStrokeColor": "#0000FF",
         "strokeWidth": 2,
         "stroke": true,
         "fillOpacity": 0.9,
         "opacity": 0.9,
         "iconWidth": 28,
         "iconHeight": 28,
-        "nameLabel": "Name",
-        "iconUri": "images/hoogspanningsmasten.png"
+        "nameLabel": "typeinrich",
+        "iconUri": "images/hoogspanningsmast.png"
       },
       "propertyTypeKeys": "ogc_fid;fid;namespace;lokaalid;brontype;bronactual;bronbeschr;bronnauwke;objectbegi;tijdstipre;tdncode;visualisat;typeinrich"
     }
   },
   "propertyTypeData": {
     "ogc_fid": {
-      "title": "Ogc fid",
-      "type": "number",
-      "description": ""
+      "title": "OGC FID",
+      "type": "number"
     },
     "fid": {
-      "title": "Fid",
-      "type": "number",
-      "description": ""
+      "title": "FID",
+      "type": "number"
     },
     "namespace": {
       "title": "Namespace",
-      "type": "text",
-      "description": ""
+      "type": "text"
     },
     "lokaalid": {
-      "title": "Lokaalid",
-      "type": "number",
-      "description": ""
+      "title": "Lokaal id",
+      "type": "number"
     },
     "brontype": {
       "title": "Brontype",
-      "type": "text",
-      "description": ""
+      "type": "text"
     },
     "bronactual": {
       "title": "Bronactual",
-      "type": "text",
-      "description": ""
+      "type": "text"
     },
     "bronbeschr": {
-      "title": "Bronbeschr",
-      "type": "textarea",
-      "description": ""
+      "title": "Bronbeschrijving",
+      "type": "textarea"
     },
     "bronnauwke": {
-      "title": "Bronnauwke",
-      "type": "number",
-      "description": ""
+      "title": "Bronnauwkeurigheid",
+      "type": "number"
     },
     "objectbegi": {
       "title": "Objectbegi",
@@ -69,17 +62,17 @@
       "description": ""
     },
     "tdncode": {
-      "title": "Tdncode",
+      "title": "TDN code",
       "type": "number",
       "description": ""
     },
     "visualisat": {
-      "title": "Visualisat",
+      "title": "Visualisatie",
       "type": "number",
       "description": ""
     },
     "typeinrich": {
-      "title": "Typeinrich",
+      "title": "Typeinrichting",
       "type": "textarea",
       "description": ""
     }
