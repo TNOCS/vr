@@ -10,9 +10,7 @@ rem Make sure ogr2ogr.exe and node.exe are added to the PATH variable and run th
 
 rem for %%f in (clip/amb*.json) do (
 for %%f in (clip/*.geojson) do (
-    echo
     echo Processing %%f
-	echo
 	echo amsterdam-amstelland
     call ogr2ogr -clipsrc ../csweb/data/projects/amsterdam-amstelland/clip.geojson 	    -f GeoJSON ../csweb/data/projects/amsterdam-amstelland/%%f 	clip/%%f 
     echo brabant-noord
