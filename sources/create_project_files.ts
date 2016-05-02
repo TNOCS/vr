@@ -280,7 +280,7 @@ function createTypeResource(geojsonUrl: string, fileTypeUrl: string, defaultFeat
 
 // MAIN LOOP
 function mainLoop() {
-    fs.readFile(defaultProjectUrl, (err, data) => {    
+    fs.readFile(defaultProjectUrl, (err, data) => {
         if (err) {
             console.error(err.message);
             return;
@@ -292,7 +292,7 @@ function mainLoop() {
                 return;
             }
 
-        files.map(file => {
+            files.map(file => {
                 return path.join(dataFolder, file);
             }).filter(file => {
                 return !fs.statSync(file).isFile();

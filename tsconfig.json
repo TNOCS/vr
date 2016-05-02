@@ -12,6 +12,7 @@
     "csweb/app/app.ts",
     "csweb/app/m.ts",
     "sources/create_project_files.ts",
+    "sources/prune_geojson_files.ts",
     "typings/browser.d.ts",
     "typings/browser/ambient/crossfilter/crossfilter.d.ts",
     "typings/browser/ambient/leaflet/leaflet.d.ts",
