@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                                                                  
+"features": [
+{ "type": "Feature", "properties": { "Plaats": "Katwijk", "Lat": 52.176300, "Lon": 4.414051, "Naam": "Katwijk", "Type": "Azc,GLO", "Opvangplaatsen": 1170, "Straat": "1e Mientlaan", "Huisnummer": 33, "Postcode": "2223LG", "Telefoon": "088-7150300", "Email": "katwijk@coa.nl", "Noodopvang": "Nee", "Beschrijving": " Sinds oktober 2008 worden asielzoekers opgevangen op azc Katwijk. Het centrum was gericht op terugkeer. In juli 2011 werd azc Katwijk aangewezen als een van de eerste gezinslocaties in Nederland. Vanaf eind 2014 is de locatie uitgebreid tot in totaal 1170 opvangplaatsen en is het naast een gezinslocatie ook een regulier azc (asielzoekerscentrum). De bewoners van azc Katwijk zijn gehuisvest in de gebouwen waar vroeger de militairen woonden die gelegerd waren op het voormalig vliegveld Valkenburg. Aangezien er op het terrein van Defensie geen alchohol mag worden geschonken lagen de woongebouwen van de manschappen en de keuken aan de andere kant van de slagboom van het vliegveld. De kantoorruimtes liggen op 500 meter afstand van de bewonersgebouwen in wat voorheen door defensie ook als kantoor en opslagruimte werd gebruikt. Voor de uitbreiding van eind 2013 zijn semipermanente gebouwen geplaatst, direct achter de kantoorruimtes.", "Huisletter": null, "Beschikbaar tot": null }, "geometry": { "type": "Point", "coordinates": [ 4.41405070937225, 52.176299996618901 ] } }
+]
+}

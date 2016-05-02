@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                                                                  
+"features": [
+{ "type": "Feature", "properties": { "Plaats": "Haarlem", "Lat": 52.383610, "Lon": 4.645147, "Naam": "Haarlem", "Type": "Azc", "Opvangplaatsen": 0, "Straat": "Harmenjansweg", "Huisnummer": 4, "Postcode": "2031WK", "Telefoon": "088-7150600", "Email": null, "Noodopvang": null, "Beschrijving": null, "Huisletter": null, "Beschikbaar tot": null }, "geometry": { "type": "Point", "coordinates": [ 4.64514667869581, 52.383609652106301 ] } }
+]
+}

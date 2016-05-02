@@ -252,6 +252,19 @@
           "fitToMap": true
         },
         {
+          "id": "vluchtelingen",
+          "title": "Vluchtelingen",
+          "description": "Bron: CBS 2015",
+          "type": "geojson",
+          "url": "data/projects/zuid-holland-zuid/vluchtelingen.geojson",
+          "typeUrl": "data/resourceTypes/vluchtelingen.json",
+          "opacity": 75,
+          "defaultFeatureType": "vluchtelingen",
+          "isDynamic": false,
+          "timeAware": false,
+          "fitToMap": true
+        },
+        {
           "id": "wijk",
           "title": "Wijk",
           "description": "Bron: CBS Gemeente, Wijk en Buurtkaart 2015",

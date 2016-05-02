@@ -102,6 +102,7 @@ function layerIdToInfo(id: string, vrTitle: string) : { title: string; desc: str
         case 'brandweerkazernes': return { group: 'Locaties', title: 'Brandweerkazernes', clustering: true, desc: 'Bron: Imergis 2016' };
         case 'politievestigingen': return { group: 'Locaties', title: 'Politievestigingen', clustering: true, desc: 'Bron: Imergis 2016' };
         case 'gemeentehuizen': return { group: 'Locaties', title: 'Gemeentehuizen', clustering: true, desc: 'Bron: Imergis 2016' };
+        case 'azc': return { group: 'Locaties', title: 'Asielzoekerscentra', clustering: true, desc: 'Bron: COA 2015' };
 
         case 'clip': return { group: 'Regio', title: vrTitle, clustering: true, desc: 'Bron: Imergis 2016' };
 
@@ -117,6 +118,7 @@ function layerIdToInfo(id: string, vrTitle: string) : { title: string; desc: str
         case 'gemeente': return { group: 'Bevolking', oneActive: true, clustering: false, title: 'Gemeente', desc: 'Bron: CBS Gemeente, Wijk en Buurtkaart 2015' };
         case 'wijk': return { group: 'Bevolking', oneActive: true, clustering: false, title: 'Wijk', desc: 'Bron: CBS Gemeente, Wijk en Buurtkaart 2015' };
         case 'buurt': return { group: 'Bevolking', oneActive: true, clustering: false, title: 'Buurt', desc: 'Bron: CBS Gemeente, Wijk en Buurtkaart 2015' };
+        case 'vluchtelingen': return { group: 'Bevolking', oneActive: true, clustering: false, title: 'Vluchtelingen', desc: 'Bron: CBS 2015' };
 
         case 'ziekenhuis': return { group: 'Zieken- en verpleeghuizen', oneActive: false, clustering: true, title: 'Ziekenhuizen', desc: 'Bron: Ministerie van VWZ op www.zorgopdekaart.nl' };
         case 'vvt': return { group: 'Zieken- en verpleeghuizen', oneActive: false, clustering: true, title: 'VVT', desc: 'Bron: Ministerie van VWZ op www.zorgopdekaart.nl' };

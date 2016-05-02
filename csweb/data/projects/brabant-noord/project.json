@@ -119,6 +119,19 @@
           "fitToMap": true
         },
         {
+          "id": "azc",
+          "title": "Asielzoekerscentra",
+          "description": "Bron: COA 2015",
+          "type": "geojson",
+          "url": "data/projects/brabant-noord/azc.geojson",
+          "typeUrl": "data/resourceTypes/azc.json",
+          "opacity": 75,
+          "defaultFeatureType": "azc",
+          "isDynamic": false,
+          "timeAware": false,
+          "fitToMap": true
+        },
+        {
           "id": "brandweerkazernes",
           "title": "Brandweerkazernes",
           "description": "Bron: Imergis 2016",
@@ -247,6 +260,19 @@
           "typeUrl": "data/resourceTypes/gemeente.json",
           "opacity": 75,
           "defaultFeatureType": "gemeente",
+          "isDynamic": false,
+          "timeAware": false,
+          "fitToMap": true
+        },
+        {
+          "id": "vluchtelingen",
+          "title": "Vluchtelingen",
+          "description": "Bron: CBS 2015",
+          "type": "geojson",
+          "url": "data/projects/brabant-noord/vluchtelingen.geojson",
+          "typeUrl": "data/resourceTypes/vluchtelingen.json",
+          "opacity": 75,
+          "defaultFeatureType": "vluchtelingen",
           "isDynamic": false,
           "timeAware": false,
           "fitToMap": true
