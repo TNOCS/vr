@@ -102,6 +102,40 @@
   "propertyTypeData": {},
   "groups": [
     {
+      "id": "overig",
+      "title": "Overig",
+      "layers": [
+        {
+          "id": "ambassades",
+          "title": "ambassades",
+          "description": "???",
+          "type": "geojson",
+          "url": "data/projects/haaglanden/ambassades.geojson",
+          "typeUrl": "data/resourceTypes/ambassades.json",
+          "opacity": 75,
+          "defaultFeatureType": "ambassades",
+          "isDynamic": false,
+          "timeAware": false,
+          "fitToMap": true
+        },
+        {
+          "id": "ministeries",
+          "title": "ministeries",
+          "description": "???",
+          "type": "geojson",
+          "url": "data/projects/haaglanden/ministeries.geojson",
+          "typeUrl": "data/resourceTypes/ministeries.json",
+          "opacity": 75,
+          "defaultFeatureType": "ministeries",
+          "isDynamic": false,
+          "timeAware": false,
+          "fitToMap": true
+        }
+      ],
+      "clustering": true,
+      "clusterLevel": 13
+    },
+    {
       "id": "locaties",
       "title": "Locaties",
       "layers": [

@@ -102,6 +102,27 @@
   "propertyTypeData": {},
   "groups": [
     {
+      "id": "overig",
+      "title": "Overig",
+      "layers": [
+        {
+          "id": "ambassades",
+          "title": "ambassades",
+          "description": "???",
+          "type": "geojson",
+          "url": "data/projects/hollands_midden/ambassades.geojson",
+          "typeUrl": "data/resourceTypes/ambassades.json",
+          "opacity": 75,
+          "defaultFeatureType": "ambassades",
+          "isDynamic": false,
+          "timeAware": false,
+          "fitToMap": true
+        }
+      ],
+      "clustering": true,
+      "clusterLevel": 13
+    },
+    {
       "id": "locaties",
       "title": "Locaties",
       "layers": [
