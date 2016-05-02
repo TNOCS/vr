@@ -57,8 +57,6 @@ export class FeatureType {
 }
 
 export class PropertyType {
-    description = '';
-    
     constructor(public title: string, public type = 'text') {}
 }
 
@@ -167,7 +165,7 @@ function createProjectFiles(folder: string, data: Buffer, id: string, title: str
                 };
                 if (info.clustering) {
                     newGroup.clustering = true;
-                    newGroup.clusterLevel = 10;
+                    newGroup.clusterLevel = 13;
                 }
                 if (info.oneActive) {
                     newGroup.oneLayerActive = true;

@@ -42,7 +42,7 @@
                     "directive": "locationwidget", 
                     "enabled": true, 
                     "style": "white", 
-                    "width": "330px",
+                    "width": "370px",
                     "height": "145px", 
                     "bottom": "75px", 
                     "left": "35%", 

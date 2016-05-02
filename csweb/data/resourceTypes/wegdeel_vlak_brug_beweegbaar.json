@@ -2,126 +2,125 @@
   "featureTypes": {
     "wegdeel_vlak_brug_beweegbaar": {
       "style": {
-        "drawingMode": "Polygon",
-        "fillColor": "#ffffff",
-        "strokeColor": "#000088",
-        "strokeWidth": 2,
+        "drawingMode": "Point",
+        "fillColor": "#ff0000",
+        "strokeColor": "#f0000f",
+        "selectedStrokeColor": "#0000ff",
+        "strokeWidth": 10,
         "stroke": true,
         "fillOpacity": 0.9,
         "opacity": 0.9,
         "iconWidth": 28,
         "iconHeight": 28,
         "nameLabel": "Name",
-        "iconUri": "images/wegdeel_vlak_brug_beweegbaar.png"
+        "iconUri": "images/5019 beweegbare brug.png"
       },
-      "propertyTypeKeys": "ogc_fid;fid;namespace;lokaalid;brontype;bronactual;bronbeschr;bronnauwke;objectbegi;tijdstipre;tdncode;visualisat;typeinfras;typeweg;hoofdverke;fysiekvoor;verharding;gescheiden;verhardi_1;status;swegnummer"
+      "propertyTypeKeys": "Name;typeinfras;typeweg;hoofdverke;fysiekvoor;verharding;gescheiden;verhardi_1;status;awegnummer;nwegnummer;swegnummer;ewegnummer;ogc_fid;fid;namespace;lokaalid;brontype;bronactual;bronbeschr;bronnauwke;objectbegi;tijdstipre;tdncode;visualisat"
     }
   },
   "propertyTypeData": {
+    "Name": {
+      "label": "Name",
+      "title": "Naam",
+      "type": "text",
+      "expression": "properties.typeweg + ', ' + properties.hoofdverke",
+      "visibleInCallout": false
+    },
     "ogc_fid": {
-      "title": "Ogc fid",
-      "type": "number",
-      "description": ""
+      "title": "OGC FID",
+      "type": "number"
     },
     "fid": {
-      "title": "Fid",
-      "type": "number",
-      "description": ""
+      "title": "FID",
+      "type": "number"
     },
     "namespace": {
       "title": "Namespace",
-      "type": "text",
-      "description": ""
+      "type": "text"
     },
     "lokaalid": {
-      "title": "Lokaalid",
-      "type": "number",
-      "description": ""
+      "title": "Lokaal ID",
+      "type": "number"
     },
     "brontype": {
       "title": "Brontype",
-      "type": "text",
-      "description": ""
+      "type": "text"
     },
     "bronactual": {
-      "title": "Bronactual",
-      "type": "text",
-      "description": ""
+      "title": "Bronactualisate",
+      "type": "text"
     },
     "bronbeschr": {
-      "title": "Bronbeschr",
-      "type": "textarea",
-      "description": ""
+      "title": "Bronbeschrijving",
+      "type": "textarea"
     },
     "bronnauwke": {
-      "title": "Bronnauwke",
-      "type": "number",
-      "description": ""
+      "title": "Bronnauwkeurigheid",
+      "type": "number"
     },
     "objectbegi": {
       "title": "Objectbegi",
-      "type": "text",
-      "description": ""
+      "type": "text"
     },
     "tijdstipre": {
       "title": "Tijdstipre",
-      "type": "text",
-      "description": ""
+      "type": "text"
     },
     "tdncode": {
-      "title": "Tdncode",
-      "type": "number",
-      "description": ""
+      "title": "TDN code",
+      "type": "number"
     },
     "visualisat": {
-      "title": "Visualisat",
-      "type": "number",
-      "description": ""
+      "title": "Visualisatie",
+      "type": "number"
     },
     "typeinfras": {
-      "title": "Typeinfras",
-      "type": "text",
-      "description": ""
+      "title": "Typeinfrastructuur",
+      "type": "text"
     },
     "typeweg": {
-      "title": "Typeweg",
-      "type": "textarea",
-      "description": ""
+      "title": "Type weg",
+      "type": "textarea"
     },
     "hoofdverke": {
-      "title": "Hoofdverke",
-      "type": "textarea",
-      "description": ""
+      "title": "Hoofdverkeer",
+      "type": "textarea"
     },
     "fysiekvoor": {
-      "title": "Fysiekvoor",
-      "type": "textarea",
-      "description": ""
+      "title": "Fysiek voor",
+      "type": "textarea"
     },
     "verharding": {
       "title": "Verharding",
-      "type": "text",
-      "description": ""
+      "type": "text"
     },
     "gescheiden": {
       "title": "Gescheiden",
-      "type": "text",
-      "description": ""
+      "type": "text"
     },
     "verhardi_1": {
-      "title": "Verhardi 1",
-      "type": "text",
-      "description": ""
+      "title": "Verharding 1",
+      "type": "text"
     },
     "status": {
       "title": "Status",
-      "type": "text",
-      "description": ""
+      "type": "text"
+    },
+    "awegnummer": {
+      "title": "A-wegnummer",
+      "type": "text"
     },
     "swegnummer": {
-      "title": "Swegnummer",
-      "type": "text",
-      "description": ""
+      "title": "S-wegnummer",
+      "type": "text"
+    },
+    "nwegnummer": {
+      "title": "N-wegnummer",
+      "type": "text"
+    },
+    "ewegnummer": {
+      "title": "E-wegnummer",
+      "type": "text"
     }
   }
 }

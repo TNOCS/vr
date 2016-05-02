@@ -42,7 +42,7 @@
           "directive": "locationwidget",
           "enabled": true,
           "style": "white",
-          "width": "330px",
+          "width": "370px",
           "height": "145px",
           "bottom": "75px",
           "left": "35%",
@@ -159,7 +159,7 @@
         }
       ],
       "clustering": true,
-      "clusterLevel": 10
+      "clusterLevel": 13
     },
     {
       "id": "masten en leidingen",
@@ -206,7 +206,7 @@
         }
       ],
       "clustering": true,
-      "clusterLevel": 10
+      "clusterLevel": 13
     },
     {
       "id": "bevolking",
@@ -273,7 +273,7 @@
         }
       ],
       "clustering": true,
-      "clusterLevel": 10
+      "clusterLevel": 13
     },
     {
       "id": "weg en spoor",
@@ -320,28 +320,7 @@
         }
       ],
       "clustering": true,
-      "clusterLevel": 10
-    },
-    {
-      "id": "overig",
-      "title": "Overig",
-      "layers": [
-        {
-          "id": "inrichting_station",
-          "title": "inrichting_station",
-          "description": "???",
-          "type": "geojson",
-          "url": "data/projects/noord-holland-noord/inrichting_station.geojson",
-          "typeUrl": "data/resourceTypes/inrichting_station.json",
-          "opacity": 75,
-          "defaultFeatureType": "inrichting_station",
-          "isDynamic": false,
-          "timeAware": false,
-          "fitToMap": true
-        }
-      ],
-      "clustering": true,
-      "clusterLevel": 10
+      "clusterLevel": 13
     }
   ],
   "layerDirectory": "/api/layers",

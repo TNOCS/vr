@@ -12,13 +12,20 @@
         "opacity": 0.9,
         "iconWidth": 28,
         "iconHeight": 28,
-        "nameLabel": "LOC_NAAM",
+        "nameLabel": "Name",
         "iconUri": "images/7022 brandweerkazerne.png"
       },
-      "propertyTypeKeys": "Organisati;LOC_TYPE;LOC_NAAM;LOC_STRAAT;Huisnr;Postcode;Plaats;GEM;Regio;Website;Telefoon;BIJZONDERH;X;Y;X-nav;Y-nav;BAG Id;"
+      "propertyTypeKeys": "Name;Organisati;LOC_TYPE;LOC_NAAM;LOC_STRAAT;Huisnr;Postcode;Plaats;GEM;Regio;Website;Telefoon;BIJZONDERH;X;Y;X-nav;Y-nav;BAG Id;"
     }
   },
   "propertyTypeData": {
+    "Name": {
+      "label": "Name",
+      "title": "Naam",
+      "type": "text",
+      "expression": "properties.LOC_TYPE + ' ' + properties.LOC_NAAM",
+      "visibleInCallout": false
+    },
     "X": {
       "title": "RD X",
       "type": "number",
