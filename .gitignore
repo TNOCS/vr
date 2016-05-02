@@ -32,6 +32,8 @@ node_modules
 # Optional REPL history
 .node_repl_history
 
+# Project additions
+dist
 csweb/bower_components
 csweb/**/*.js
 csweb/**/*.js.map
