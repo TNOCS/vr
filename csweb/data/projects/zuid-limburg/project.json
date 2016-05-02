@@ -26,7 +26,7 @@
   "dashboards": [
     {
       "id": "map",
-      "name": "Home",
+      "name": "Kaart",
       "editMode": true,
       "showMap": true,
       "mapWidth": "100%",
@@ -57,7 +57,7 @@
     },
     {
       "id": "datatable",
-      "name": "Table",
+      "name": "Tabel",
       "editMode": false,
       "showMap": false,
       "mapWidth": "100%",
@@ -179,6 +179,19 @@
           "fitToMap": true
         },
         {
+          "id": "c2000masten",
+          "title": "C2000 masten",
+          "description": "",
+          "type": "geojson",
+          "url": "data/projects/zuid-limburg/c2000masten.geojson",
+          "typeUrl": "data/resourceTypes/c2000masten.json",
+          "opacity": 75,
+          "defaultFeatureType": "c2000masten",
+          "isDynamic": false,
+          "timeAware": false,
+          "fitToMap": true
+        },
+        {
           "id": "hoogspanningsleidingen",
           "title": "Hoogspanningsleidingen",
           "description": "Bron: Imergis 2016",
@@ -267,6 +280,66 @@
           "typeUrl": "data/resourceTypes/clip.json",
           "opacity": 75,
           "defaultFeatureType": "clip",
+          "isDynamic": false,
+          "timeAware": false,
+          "fitToMap": true
+        }
+      ],
+      "clustering": true,
+      "clusterLevel": 13
+    },
+    {
+      "id": "zieken- en verpleeghuizen",
+      "title": "Zieken- en verpleeghuizen",
+      "layers": [
+        {
+          "id": "ggz",
+          "title": "GGZ",
+          "description": "Bron: Ministerie van VWZ op www.zorgopdekaart.nl",
+          "type": "geojson",
+          "url": "data/projects/zuid-limburg/ggz.geojson",
+          "typeUrl": "data/resourceTypes/ggz.json",
+          "opacity": 75,
+          "defaultFeatureType": "ggz",
+          "isDynamic": false,
+          "timeAware": false,
+          "fitToMap": true
+        },
+        {
+          "id": "ghz",
+          "title": "GHZ",
+          "description": "Bron: Ministerie van VWZ op www.zorgopdekaart.nl",
+          "type": "geojson",
+          "url": "data/projects/zuid-limburg/ghz.geojson",
+          "typeUrl": "data/resourceTypes/ghz.json",
+          "opacity": 75,
+          "defaultFeatureType": "ghz",
+          "isDynamic": false,
+          "timeAware": false,
+          "fitToMap": true
+        },
+        {
+          "id": "vvt",
+          "title": "VVT",
+          "description": "Bron: Ministerie van VWZ op www.zorgopdekaart.nl",
+          "type": "geojson",
+          "url": "data/projects/zuid-limburg/vvt.geojson",
+          "typeUrl": "data/resourceTypes/vvt.json",
+          "opacity": 75,
+          "defaultFeatureType": "vvt",
+          "isDynamic": false,
+          "timeAware": false,
+          "fitToMap": true
+        },
+        {
+          "id": "ziekenhuis",
+          "title": "Ziekenhuizen",
+          "description": "Bron: Ministerie van VWZ op www.zorgopdekaart.nl",
+          "type": "geojson",
+          "url": "data/projects/zuid-limburg/ziekenhuis.geojson",
+          "typeUrl": "data/resourceTypes/ziekenhuis.json",
+          "opacity": 75,
+          "defaultFeatureType": "ziekenhuis",
           "isDynamic": false,
           "timeAware": false,
           "fitToMap": true

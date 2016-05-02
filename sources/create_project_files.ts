@@ -106,6 +106,7 @@ function layerIdToInfo(id: string, vrTitle: string) : { title: string; desc: str
         case 'clip': return { group: 'Regio', title: vrTitle, clustering: true, desc: 'Bron: Imergis 2016' };
 
         case 'antenneregister': return { group: 'Masten en leidingen', title: 'Antenneregister', clustering: true, desc: 'Bron: Imergis 2016' };
+        case 'c2000masten': return { group: 'Masten en leidingen', title: 'C2000 masten', clustering: true, desc: '' };
         case 'hoogspanningsleidingen': return { group: 'Masten en leidingen', title: 'Hoogspanningsleidingen', clustering: true, desc: 'Bron: Imergis 2016' };
         case 'hoogspanningsmasten': return { group: 'Masten en leidingen', title: 'Hoogspanningsmasten', clustering: true, desc: 'Bron: Imergis 2016' };
         
@@ -116,6 +117,11 @@ function layerIdToInfo(id: string, vrTitle: string) : { title: string; desc: str
         case 'gemeente': return { group: 'Bevolking', oneActive: true, clustering: false, title: 'Gemeente', desc: 'Bron: CBS Gemeente, Wijk en Buurtkaart 2015' };
         case 'wijk': return { group: 'Bevolking', oneActive: true, clustering: false, title: 'Wijk', desc: 'Bron: CBS Gemeente, Wijk en Buurtkaart 2015' };
         case 'buurt': return { group: 'Bevolking', oneActive: true, clustering: false, title: 'Buurt', desc: 'Bron: CBS Gemeente, Wijk en Buurtkaart 2015' };
+
+        case 'ziekenhuis': return { group: 'Zieken- en verpleeghuizen', oneActive: false, clustering: true, title: 'Ziekenhuizen', desc: 'Bron: Ministerie van VWZ op www.zorgopdekaart.nl' };
+        case 'vvt': return { group: 'Zieken- en verpleeghuizen', oneActive: false, clustering: true, title: 'VVT', desc: 'Bron: Ministerie van VWZ op www.zorgopdekaart.nl' };
+        case 'ggz': return { group: 'Zieken- en verpleeghuizen', oneActive: false, clustering: true, title: 'GGZ', desc: 'Bron: Ministerie van VWZ op www.zorgopdekaart.nl' };
+        case 'ghz': return { group: 'Zieken- en verpleeghuizen', oneActive: false, clustering: true, title: 'GHZ', desc: 'Bron: Ministerie van VWZ op www.zorgopdekaart.nl' };
 
         default: return { group: 'Overig', title: id, clustering: true, desc: '???' };
     }

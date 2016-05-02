@@ -1,0 +1,21 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                                                                  
+"features": [
+{ "type": "Feature", "properties": { "Naam": "C2000 mast", "Lat": 51.818480, "Lon": 4.755450 }, "geometry": { "type": "Point", "coordinates": [ 4.75545, 51.81848 ] } },
+{ "type": "Feature", "properties": { "Naam": "C2000 mast", "Lat": 51.801060, "Lon": 4.707450 }, "geometry": { "type": "Point", "coordinates": [ 4.70745, 51.80106 ] } },
+{ "type": "Feature", "properties": { "Naam": "C2000 mast", "Lat": 51.812650, "Lon": 4.646760 }, "geometry": { "type": "Point", "coordinates": [ 4.64676, 51.81265 ] } },
+{ "type": "Feature", "properties": { "Naam": "C2000 mast", "Lat": 51.855240, "Lon": 4.665730 }, "geometry": { "type": "Point", "coordinates": [ 4.66573, 51.85524 ] } },
+{ "type": "Feature", "properties": { "Naam": "C2000 mast", "Lat": 51.896560, "Lon": 4.744090 }, "geometry": { "type": "Point", "coordinates": [ 4.74409, 51.89656 ] } },
+{ "type": "Feature", "properties": { "Naam": "C2000 mast", "Lat": 51.914960, "Lon": 4.987030 }, "geometry": { "type": "Point", "coordinates": [ 4.98703, 51.91496 ] } },
+{ "type": "Feature", "properties": { "Naam": "C2000 mast", "Lat": 51.833120, "Lon": 4.947150 }, "geometry": { "type": "Point", "coordinates": [ 4.94715, 51.83312 ] } },
+{ "type": "Feature", "properties": { "Naam": "C2000 mast", "Lat": 51.794560, "Lon": 4.556960 }, "geometry": { "type": "Point", "coordinates": [ 4.55696, 51.79456 ] } },
+{ "type": "Feature", "properties": { "Naam": "C2000 mast", "Lat": 51.897870, "Lon": 5.105120 }, "geometry": { "type": "Point", "coordinates": [ 5.10512, 51.89787 ] } },
+{ "type": "Feature", "properties": { "Naam": "C2000 mast", "Lat": 51.822190, "Lon": 4.837220 }, "geometry": { "type": "Point", "coordinates": [ 4.83722, 51.82219 ] } },
+{ "type": "Feature", "properties": { "Naam": "C2000 mast", "Lat": 51.938100, "Lon": 4.848640 }, "geometry": { "type": "Point", "coordinates": [ 4.84864, 51.9381 ] } },
+{ "type": "Feature", "properties": { "Naam": "C2000 mast", "Lat": 51.764010, "Lon": 4.335270 }, "geometry": { "type": "Point", "coordinates": [ 4.33527, 51.76401 ] } },
+{ "type": "Feature", "properties": { "Naam": "C2000 mast", "Lat": 51.729270, "Lon": 4.429350 }, "geometry": { "type": "Point", "coordinates": [ 4.42935, 51.72927 ] } },
+{ "type": "Feature", "properties": { "Naam": "C2000 mast", "Lat": 51.809400, "Lon": 4.435860 }, "geometry": { "type": "Point", "coordinates": [ 4.43586, 51.8094 ] } }
+]
+}
