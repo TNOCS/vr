@@ -1,8 +1,10 @@
 {
   "id": "hollands_midden",
   "title": "Hollands Midden",
-  "logo": "images/politie_zwart.png",
+  "logo": "images/TNOblack.png",
   "isDynamic": false,
+  "showScale": true,
+  "showZoomButtons": true,
   "showLocation": true,
   "timeLine": {
     "enableLive": false,
@@ -36,7 +38,9 @@
       "showLegend": false,
       "showRightmenu": false,
       "showBackgroundImage": false,
-      "visiblelayers": [],
+      "visiblelayers": [
+        "clip"
+      ],
       "widgets": [
         {
           "directive": "locationwidget",
@@ -82,16 +86,6 @@
       "mobile": true
     }
   ],
-  "viewBounds": {
-    "southWest": [
-      52.060327717006984,
-      4.259519577026367
-    ],
-    "northEast": [
-      52.08594088662689,
-      4.341917037963867
-    ]
-  },
   "userPrivileges": {
     "mca": {
       "expertMode": true
