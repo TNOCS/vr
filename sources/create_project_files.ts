@@ -96,15 +96,18 @@ function projectIdToTitle(id: string) {
     }
 }
 
-function layerIdToInfo(id: string, vrTitle: string) : { title: string; desc: string; group?: string; oneActive?: boolean; clustering?: boolean} {
+function layerIdToInfo(id: string, vrTitle: string) : { title: string; desc: string; group?: string; oneActive?: boolean; clustering?: boolean; fitToMap?: boolean} {
     switch(id) {
         case 'ambulanceposten': return { group: 'Locaties', title: 'Ambulanceposten', clustering: true, desc: 'Bron: Imergis 2016' };
         case 'brandweerkazernes': return { group: 'Locaties', title: 'Brandweerkazernes', clustering: true, desc: 'Bron: Imergis 2016' };
         case 'politievestigingen': return { group: 'Locaties', title: 'Politievestigingen', clustering: true, desc: 'Bron: Imergis 2016' };
         case 'gemeentehuizen': return { group: 'Locaties', title: 'Gemeentehuizen', clustering: true, desc: 'Bron: Imergis 2016' };
         case 'azc': return { group: 'Locaties', title: 'Asielzoekerscentra', clustering: true, desc: 'Bron: COA 2015' };
+        case 'scholenonderwijs_bo': return { group: 'Locaties', title: 'Scholen: basisonderwijs', clustering: true, desc: 'Bron: DUO mei 2016' };
+        case 'scholenonderwijs_bo_spec': return { group: 'Locaties', title: 'Scholen: speciaal basisonderwijs', clustering: true, desc: 'Bron: DUO mei 2016' };
+        case 'scholenonderwijs_vo': return { group: 'Locaties', title: 'Scholen: voortgezet onderwijs', clustering: true, desc: 'Bron: DUO mei 2016' };
 
-        case 'clip': return { group: 'Regio', title: vrTitle, clustering: true, desc: 'Bron: Imergis 2016' };
+        case 'clip': return { group: 'Regio', title: vrTitle, clustering: true, desc: 'Bron: Imergis 2016', fitToMap: true };
 
         case 'antenneregister': return { group: 'Masten en leidingen', title: 'Antenneregister', clustering: true, desc: 'Bron: Imergis 2016' };
         case 'c2000masten': return { group: 'Masten en leidingen', title: 'C2000 masten', clustering: true, desc: '' };
@@ -194,7 +197,7 @@ function createProjectFiles(folder: string, data: Buffer, id: string, title: str
                 defaultFeatureType: layerId,
                 isDynamic: false,
                 timeAware: false,
-                fitToMap: true
+                fitToMap: typeof info.fitToMap === 'undefined' ? false : info.fitToMap
             });
             createTypeResource(url, typeUrl, layerId);
         });

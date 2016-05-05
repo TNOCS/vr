@@ -110,7 +110,7 @@
           "defaultFeatureType": "ambulanceposten",
           "isDynamic": false,
           "timeAware": false,
-          "fitToMap": true
+          "fitToMap": false
         },
         {
           "id": "brandweerkazernes",
@@ -123,7 +123,7 @@
           "defaultFeatureType": "brandweerkazernes",
           "isDynamic": false,
           "timeAware": false,
-          "fitToMap": true
+          "fitToMap": false
         },
         {
           "id": "gemeentehuizen",
@@ -136,7 +136,7 @@
           "defaultFeatureType": "gemeentehuizen",
           "isDynamic": false,
           "timeAware": false,
-          "fitToMap": true
+          "fitToMap": false
         },
         {
           "id": "politievestigingen",
@@ -149,7 +149,46 @@
           "defaultFeatureType": "politievestigingen",
           "isDynamic": false,
           "timeAware": false,
-          "fitToMap": true
+          "fitToMap": false
+        },
+        {
+          "id": "scholenonderwijs_bo",
+          "title": "Scholen: basisonderwijs",
+          "description": "Bron: DUO mei 2016",
+          "type": "geojson",
+          "url": "data/projects/zuid-holland-zuid/scholenonderwijs_bo.geojson",
+          "typeUrl": "data/resourceTypes/scholenonderwijs_bo.json",
+          "opacity": 75,
+          "defaultFeatureType": "scholenonderwijs_bo",
+          "isDynamic": false,
+          "timeAware": false,
+          "fitToMap": false
+        },
+        {
+          "id": "scholenonderwijs_bo_spec",
+          "title": "Scholen: speciaal basisonderwijs",
+          "description": "Bron: DUO mei 2016",
+          "type": "geojson",
+          "url": "data/projects/zuid-holland-zuid/scholenonderwijs_bo_spec.geojson",
+          "typeUrl": "data/resourceTypes/scholenonderwijs_bo_spec.json",
+          "opacity": 75,
+          "defaultFeatureType": "scholenonderwijs_bo_spec",
+          "isDynamic": false,
+          "timeAware": false,
+          "fitToMap": false
+        },
+        {
+          "id": "scholenonderwijs_vo",
+          "title": "Scholen: voortgezet onderwijs",
+          "description": "Bron: DUO mei 2016",
+          "type": "geojson",
+          "url": "data/projects/zuid-holland-zuid/scholenonderwijs_vo.geojson",
+          "typeUrl": "data/resourceTypes/scholenonderwijs_vo.json",
+          "opacity": 75,
+          "defaultFeatureType": "scholenonderwijs_vo",
+          "isDynamic": false,
+          "timeAware": false,
+          "fitToMap": false
         }
       ],
       "clustering": true,
@@ -170,7 +209,7 @@
           "defaultFeatureType": "antenneregister",
           "isDynamic": false,
           "timeAware": false,
-          "fitToMap": true
+          "fitToMap": false
         },
         {
           "id": "c2000masten",
@@ -183,7 +222,7 @@
           "defaultFeatureType": "c2000masten",
           "isDynamic": false,
           "timeAware": false,
-          "fitToMap": true
+          "fitToMap": false
         },
         {
           "id": "hoogspanningsleidingen",
@@ -196,7 +235,7 @@
           "defaultFeatureType": "hoogspanningsleidingen",
           "isDynamic": false,
           "timeAware": false,
-          "fitToMap": true
+          "fitToMap": false
         },
         {
           "id": "hoogspanningsmasten",
@@ -209,7 +248,7 @@
           "defaultFeatureType": "hoogspanningsmasten",
           "isDynamic": false,
           "timeAware": false,
-          "fitToMap": true
+          "fitToMap": false
         }
       ],
       "clustering": true,
@@ -230,7 +269,7 @@
           "defaultFeatureType": "buurt",
           "isDynamic": false,
           "timeAware": false,
-          "fitToMap": true
+          "fitToMap": false
         },
         {
           "id": "gemeente",
@@ -243,7 +282,7 @@
           "defaultFeatureType": "gemeente",
           "isDynamic": false,
           "timeAware": false,
-          "fitToMap": true
+          "fitToMap": false
         },
         {
           "id": "vluchtelingen",
@@ -256,7 +295,7 @@
           "defaultFeatureType": "vluchtelingen",
           "isDynamic": false,
           "timeAware": false,
-          "fitToMap": true
+          "fitToMap": false
         },
         {
           "id": "wijk",
@@ -269,7 +308,7 @@
           "defaultFeatureType": "wijk",
           "isDynamic": false,
           "timeAware": false,
-          "fitToMap": true
+          "fitToMap": false
         }
       ],
       "oneLayerActive": true
@@ -310,7 +349,7 @@
           "defaultFeatureType": "ggz",
           "isDynamic": false,
           "timeAware": false,
-          "fitToMap": true
+          "fitToMap": false
         },
         {
           "id": "ghz",
@@ -323,7 +362,7 @@
           "defaultFeatureType": "ghz",
           "isDynamic": false,
           "timeAware": false,
-          "fitToMap": true
+          "fitToMap": false
         },
         {
           "id": "vvt",
@@ -336,7 +375,7 @@
           "defaultFeatureType": "vvt",
           "isDynamic": false,
           "timeAware": false,
-          "fitToMap": true
+          "fitToMap": false
         },
         {
           "id": "ziekenhuis",
@@ -349,7 +388,7 @@
           "defaultFeatureType": "ziekenhuis",
           "isDynamic": false,
           "timeAware": false,
-          "fitToMap": true
+          "fitToMap": false
         }
       ],
       "clustering": true,
@@ -370,7 +409,7 @@
           "defaultFeatureType": "inrichting_el_station",
           "isDynamic": false,
           "timeAware": false,
-          "fitToMap": true
+          "fitToMap": false
         },
         {
           "id": "spoorwegen",
@@ -383,7 +422,7 @@
           "defaultFeatureType": "spoorwegen",
           "isDynamic": false,
           "timeAware": false,
-          "fitToMap": true
+          "fitToMap": false
         },
         {
           "id": "wegdeel_vlak_brug_beweegbaar",
@@ -396,7 +435,7 @@
           "defaultFeatureType": "wegdeel_vlak_brug_beweegbaar",
           "isDynamic": false,
           "timeAware": false,
-          "fitToMap": true
+          "fitToMap": false
         }
       ],
       "clustering": true,
