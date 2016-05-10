@@ -157,7 +157,7 @@ function createProjectFiles(folder: string, data: Buffer, id: string, title: str
         let project: IProject = JSON.parse(data.toString());
         project.id = id;
         project.title = title;
-        project.groups = [];
+        if (!project.groups) project.groups = [];
         let groups: { [key: string]: Group } = {};
 
         files.map(file => {

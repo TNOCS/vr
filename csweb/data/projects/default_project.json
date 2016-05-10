@@ -244,7 +244,7 @@
         {
             "name": "OpenCageData",
             "url": "https://api.opencagedata.com/geocode/v1/json",
-            "key": "f3d87404630aa9140c2ccfb32a2168c5",
+            "key": "f59add3ec193c38488a8e8baac7b3a5b",
             "data": {
                 "culture": "nl",
                 "language": "nl-NL",
