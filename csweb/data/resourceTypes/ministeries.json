@@ -1,7 +1,7 @@
 {
     "featureTypes": {
-        "ministerie": {
-            "name": "ministerie",
+        "ministeries": {
+            "name": "ministeries",
             "contourProperty": "geometry",
             "style": {
                 "drawingMode": "Point",

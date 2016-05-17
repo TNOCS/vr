@@ -1,7 +1,7 @@
 {
     "featureTypes": {
-        "ambassade": {
-            "name": "ambassade",
+        "ambassades": {
+            "name": "ambassades",
             "style": {
                 "drawingMode": "Point",
                 "strokeWidth": 0,
